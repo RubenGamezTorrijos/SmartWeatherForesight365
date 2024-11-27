@@ -36,11 +36,12 @@ Plataforma de Análisis y Monitorización de Datos Climatológicos para Predecir
 
 ## 🌟 **Características**
 
-✅ **Crawler**: Rastrear y descargar contenido de páginas web en formato JSON.  
-✅ **Indexer**: Procesar contenido y construir un índice invertido eficiente.  
-✅ **Retriever**: Resolver consultas utilizando operadores lógicos como `AND`, `OR`, y `NOT`.  
+✅ **Pentaho**: Encargado de obtener datos en CSV de URL y transformar datos.  
+✅ **OpenRefine**: Procesar contenido de datos CSV obtenidos para una limpieza óptima.  
+✅ **RapidMiner**: Proceso de mostrar gráficamente los datos de un modo más sencillo con módulos por bloques.
 ✅ **Diseño Modular**: Cada componente se desarrolla de forma independiente para facilitar la reutilización y mejora.  
 ✅ **Pruebas Unitarias**: Cada módulo incluye ejemplos de uso y pruebas básicas para garantizar su correcto funcionamiento.
+✅ **Lenguaje: PYthon**: El lenguaje utilizado para el aprendiaje de librerías se defininarán a continuación...
 
 ---
 
