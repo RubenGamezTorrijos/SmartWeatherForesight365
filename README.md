@@ -36,12 +36,12 @@ Plataforma de Análisis y Monitorización de Datos Climatológicos para Predecir
 
 ## 🌟 **Características**
 
-✅ **Pentaho**: Encargado de obtener datos en CSV de URL y transformar datos.  
-✅ **OpenRefine**: Procesar contenido de datos CSV obtenidos para una limpieza óptima.  
-✅ **RapidMiner**: Proceso de mostrar gráficamente los datos de un modo más sencillo con módulos por bloques.
-✅ **Diseño Modular**: Cada componente se desarrolla de forma independiente para facilitar la reutilización y mejora.  
-✅ **Pruebas Unitarias**: Cada módulo incluye ejemplos de uso y pruebas básicas para garantizar su correcto funcionamiento.
-✅ **Lenguaje: PYthon**: El lenguaje utilizado para el aprendiaje de librerías se defininarán a continuación...
+-✅ **Pentaho**: Encargado de obtener datos en CSV de URL y transformar datos.  
+-✅ **OpenRefine**: Procesar contenido de datos CSV obtenidos para una limpieza óptima.  
+-✅ **RapidMiner**: Proceso de mostrar gráficamente los datos de un modo más sencillo con módulos por bloques.
+-✅ **Diseño Modular**: Cada componente se desarrolla de forma independiente para facilitar la reutilización y mejora.  
+-✅ **Pruebas Unitarias**: Cada módulo incluye ejemplos de uso y pruebas básicas para garantizar su correcto funcionamiento.
+-✅ **Lenguaje: PYthon**: El lenguaje utilizado para el aprendiaje de librerías se defininarán a continuación...
 
 ---
 
