@@ -57,8 +57,7 @@ weatherinsight/
 │   └── Madrid_weather_model.pkl        
 ├── predictions/                        # Exportado datos predictivos en formato xls para mostrar
 │   ├── Valencia_future_predictions.xls
-│   ├── Madrid_future_predictions.xls
-│   └── crawler.py 
+│   └── Madrid_future_predictions.xls
 ├── venv/        
 │   ├── Include 
 │   ├── Lib
