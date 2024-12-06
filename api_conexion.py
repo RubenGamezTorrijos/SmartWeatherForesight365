@@ -1,6 +1,6 @@
 import requests
 
-# Tu clave API para Meteostat
+# Clave API sitio web "https://rapidapi.com" para Meteostat (Sólo uso para la UEM)
 API_KEY = "fe5d411a2cmsh1b597687f803a91p115ad4jsnf2229f917062"
 
 BASE_URL = "https://meteostat.p.rapidapi.com"
