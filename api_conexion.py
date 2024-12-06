@@ -35,7 +35,7 @@ def get_coordinates(city):
     """
     url = f"https://nominatim.openstreetmap.org/search"
     params = {"q": city, "format": "json", "limit": 1}
-    headers = {"User-Agent": "WeatherSmartApp/1.0 (your_email@example.com)"}
+    headers = {"User-Agent": "WeatherSmartApp/1.0 (tu-correoelctronico@ejemplo.com)"}
     response = requests.get(url, params=params, headers=headers)
     if response.status_code == 200 and len(response.json()) > 0:
         data = response.json()[0]

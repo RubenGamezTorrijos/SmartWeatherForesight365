@@ -1,3 +1,9 @@
+# app/predict_weather.py
+from app.generate_dataset import generar_dataset  # Importación relativa dentro de 'app'
+from app.train_model import entrenar_modelo      # Importación desde 'train_model.py' dentro de 'app'
+from app.coordinates_util import obtener_coordenadas  # Importación desde 'coordinates_util.py' dentro de 'app'
+
+# librerías importadas
 import pandas as pd
 import pickle
 from datetime import datetime, timedelta

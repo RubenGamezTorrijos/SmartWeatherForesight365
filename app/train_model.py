@@ -1,3 +1,8 @@
+# app/train_model.py
+from app.coordinates_util import obtener_coordenadas  # Importación desde 'coordinates_util.py' dentro de 'app'
+from api.api_conexion import obtener_datos_api   # Importación desde 'api_conexion.py' dentro de 'api'
+
+# librerías importadas
 import pandas as pd
 import os
 from sklearn.model_selection import train_test_split
@@ -5,6 +10,8 @@ from sklearn.multioutput import MultiOutputRegressor
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 import pickle
+
+# Aquí pondrías las funciones y lógica que definan el entrenamiento para el modelo
 
 def load_data(csv_path):
     """

@@ -1,5 +1,11 @@
+# app/generate_dataset.py
+from app.predict_weather import predecir_clima   # Importación relativa dentro de 'app'
+from app.train_model import entrenar_modelo      # Importación desde 'train_model.py' dentro de 'app'
+from app.coordinates_util import obtener_coordenadas  # Importación desde 'coordinates_util.py' dentro de 'app'
 from meteostat import Point, Daily
 from datetime import datetime
+
+# librerías importar
 import pandas as pd
 import requests
 import os

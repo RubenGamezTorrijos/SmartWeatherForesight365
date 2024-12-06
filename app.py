@@ -1,7 +1,16 @@
+# app/app.py (raiz del proyecto)
+from app.generate_dataset import generar_dataset  # Importación relativa dentro de 'app'
+from app.predict_weather import predecir_clima   # Importación relativa dentro de 'app'
+from app.train_model import entrenar_modelo      # Importación desde 'train_model.py' dentro de 'app'
+from app.coordinates_util import obtener_coordenadas  # Nueva importación desde 'coordinates_util.py' dentro de 'app'
+from api.api_conexion import obtener_datos_api   # Importación desde el directorio 'api'
+
+from datetime import datetime
+
+# librerías importadas
 import pickle
 import pandas as pd
 import streamlit as st
-from datetime import datetime
 
 # Cargar el modelo entrenado
 with open("best_model.pkl", "rb") as file:
