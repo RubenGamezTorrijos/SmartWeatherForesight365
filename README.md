@@ -1,7 +1,7 @@
 # 🚀 **WeatherInsight: Predicción Inteligente de Climatología** 
 Plataforma de Análisis y Monitorización de Datos Climatológicos para Predecir Condiciones Atmosféricas
 
-¡Bienvenido al proyecto **WeatherInsight**! 🎯 Este proyecto de comoputación 1 implementa un sistema de predicción inteligente para conocer la clima en días posteriores según necesidades, con modelos de aprendizaje y entrenamiento en **Python** y usando herramientas cómo: **Pentaho**, **RapidMiner**, y **OpenRifine**.
+¡Bienvenido al proyecto **WeatherInsight**! 🎯 Este proyecto de comoputación 1 implementa un sistema de predicción inteligente para conocer la clima en días posteriores según necesidades, con modelos de aprendizaje y entrenamiento en **Python** y usando librerías.
 
 ![Status](https://img.shields.io/badge/Estado-Desarrollo-yellow?style=flat-square)
 ![GitHub license](https://img.shields.io/github/license/RubenGamezTorrijos/WeatherInsight?style=flat-square)
@@ -53,7 +53,7 @@ weatherinsight/
 │   ├── Valencia_historial_weather.csv       
 │   └── Madrid_historial_weather.csv         
 ├── models/                             # Modelos guardados de entrenamiento para luego su uso
-│   ├── Valencia_weather_model.pkl      # generado automáticamente por ""rain_model.py""
+│   ├── Valencia_weather_model.pkl      # generado automáticamente por "train_model.py"
 │   └── Madrid_weather_model.pkl        
 ├── predictions/                        # Exportado datos predictivos en formato xls para mostrar
 │   ├── Valencia_future_predictions.xls
@@ -62,15 +62,16 @@ weatherinsight/
 │   ├── Include 
 │   ├── Lib
 │   └── Scripts
-│   └── pyvenv.cfg 
-├── api_conexion.py
+│   └── pyvenv.cfg
+├── api/
+│   └── api_conexion.py                 # Api conexión con que realiza la conexión KEY y credenciales con la url Metostat.
+├── app/
+│   ├── coordinates_util.py
+│   ├── generate_dataset.py             # Módulo para obtener datos de URL Meteostat para luego exportar en datasets
+│   ├── predict_weather.py              # Módulo de predictivo para generar y exportar datos en excel XLS
+│   └── train_model.py                  # Módulo de entramiento de datos obtenidos de historial CSV
 ├── app.py                              # Función para ejecutar la aplicación de interfaz web gracias a la librería **Streamlit**
-├── generate_dataset.py                 # Módulo para obtener datos de URL Meteostat para luego exportar en datasets
-├── predict_weather.py                  # Módulo de predictivo para generar y exportar datos en excel XLS
-├── train_model.py                      # Módulo de entramiento de datos obtenidos de historial CSV
-├── requirements.txt                    # Dependencias del proyecto
-├── dev-requirements.txt                # Dependencias para desarrollo
-└── README.md                           # Este archivo
+└── README.md                           # Este archivo se encuentra la guía preincipal LEEME.
 ```
 ---
 
