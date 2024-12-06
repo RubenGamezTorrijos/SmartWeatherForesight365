@@ -1,7 +1,7 @@
 # 🚀 **WeatherInsight: Predicción Inteligente de Climatología** 
 Plataforma de Análisis y Monitorización de Datos Climatológicos para Predecir Condiciones Atmosféricas
 
-¡Bienvenido al proyecto **WeatherInsight**! 🎯 Este proyecto de comoputación 1 implementa un sistema de predicción inteligente para conocer la clima en días posteriores según necesidades, con modelos de aprendizaje y entrenamiento en **Python** y usando herramientas cómo: **Pentaho**, **RapidMiner**, y **OpenRifine**.
+¡Bienvenido al proyecto **WeatherInsight**! 🎯 Este proyecto de comoputación 1 implementa un sistema de predicción inteligente para conocer la clima en días posteriores según necesidades, con modelos de aprendizaje y entrenamiento en **Python** y usando librerías.
 
 ![Status](https://img.shields.io/badge/Estado-Desarrollo-yellow?style=flat-square)
 ![GitHub license](https://img.shields.io/github/license/RubenGamezTorrijos/WeatherInsight?style=flat-square)
