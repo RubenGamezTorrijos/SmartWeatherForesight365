@@ -62,15 +62,16 @@ weatherinsight/
 │   ├── Include 
 │   ├── Lib
 │   └── Scripts
-│   └── pyvenv.cfg 
-├── api_conexion.py
+│   └── pyvenv.cfg
+├── api/
+│   └── api_conexion.py                 # Api conexión con que realiza la conexión KEY y credenciales con la url Metostat.
+├── app/
+│   ├── coordinates_util.py
+│   ├── generate_dataset.py             # Módulo para obtener datos de URL Meteostat para luego exportar en datasets
+│   ├── predict_weather.py              # Módulo de predictivo para generar y exportar datos en excel XLS
+│   └── train_model.py                  # Módulo de entramiento de datos obtenidos de historial CSV
 ├── app.py                              # Función para ejecutar la aplicación de interfaz web gracias a la librería **Streamlit**
-├── generate_dataset.py                 # Módulo para obtener datos de URL Meteostat para luego exportar en datasets
-├── predict_weather.py                  # Módulo de predictivo para generar y exportar datos en excel XLS
-├── train_model.py                      # Módulo de entramiento de datos obtenidos de historial CSV
-├── requirements.txt                    # Dependencias del proyecto
-├── dev-requirements.txt                # Dependencias para desarrollo
-└── README.md                           # Este archivo
+└── README.md                           # Este archivo se encuentra la guía preincipal LEEME.
 ```
 ---
 
