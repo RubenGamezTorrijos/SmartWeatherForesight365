@@ -53,7 +53,7 @@ weatherinsight/
 │   ├── Valencia_historial_weather.csv       
 │   └── Madrid_historial_weather.csv         
 ├── models/                             # Modelos guardados de entrenamiento para luego su uso
-│   ├── Valencia_weather_model.pkl      # generado automáticamente por ""rain_model.py""
+│   ├── Valencia_weather_model.pkl      # generado automáticamente por "train_model.py"
 │   └── Madrid_weather_model.pkl        
 ├── predictions/                        # Exportado datos predictivos en formato xls para mostrar
 │   ├── Valencia_future_predictions.xls
