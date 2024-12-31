@@ -2,9 +2,9 @@
 
 Plataforma de análisis y monitorización de datos climatológicos para predecir condiciones atmosféricas basado en datos históricos.
 
-¡Bienvenido al proyecto **WeatherInsight**! 🎯 Este proyecto de computación 1 implementa un sistema de predicción inteligente para conocer la clima en días posteriores según necesidades, con modelos de aprendizaje y entrenamiento en **Python** y usando librerías.
+¡Bienvenido al proyecto **SmartWeatherForesight365**! 🎯 Este proyecto de Computación 1 implementa un sistema de predicción inteligente para predecir el clima en fechas posteriores hasta un máximo de 30 días, obteniendo datos históricos de **meteostat.net** conectado mediante API y con modelos de aprendizaje y entrenamiento en **Python** usando librerías.
 
-![Status](https://img.shields.io/badge/Estado-Produccion-yellow?style=flat-square)
+![Status](https://img.shields.io/badge/Estado-Produccion-green?style=flat-square)
 ![GitHub license](https://img.shields.io/github/license/RubenGamezTorrijos/SmartWeatherForesight365?style=flat-square)
 ![GitHub version](https://img.shields.io/github/v/tag/RubenGamezTorrijos/SmartWeatherForesight365?label=versión&style=flat-square)
 ![GitHub repo size](https://img.shields.io/github/repo-size/RubenGamezTorrijos/SmartWeatherForesight365?style=flat-square)
@@ -28,12 +28,9 @@ Plataforma de análisis y monitorización de datos climatológicos para predecir
   - [🌟 **Características**](#-características)
   - [📂 **Estructura**](#-estructura)
   - [🚀 **Guía de Uso**](#-guía-de-uso)
-    - [1. Instalación](#1-instalación)
-    - [2. Ejecución de los Módulos](#2-ejecución-de-los-módulos)
-      - [🕷️ Obtener datos URL y guardarlos en CSV](#️-obtener-datos-url-y-guardarlos-en-csv)
-      - [📇 Modelo entranmiento](#-modelo-entranmiento)
-      - [🔍 Predictions](#-predictions)
-      - [🛠️ Desarrollo](#️-desarrollo)
+    - [🔍 Instalación](#-instalación)
+    - [🕷️ Flujo de trabajo de la Aplicación](#️-flujo-de-trabajo-de-la-aplicación)
+      - [🛠️ Tecnologías utilizadas](#️-tecnologías-utilizadas)
   - [🤝 Contribuciones](#-contribuciones)
     - [¿Quieres colaborar? ¡Eres bienvenido! Sigue estos pasos:](#quieres-colaborar-eres-bienvenido-sigue-estos-pasos)
   - [🤖 Próximas Mejoras](#-próximas-mejoras)
@@ -85,7 +82,7 @@ SmartWeatherForesight365/
 │       ├── utils/
 │       │   └── data_processing.py      # Utilidades para el procesamiento de datos
 │       └── home.py                     # Vista principal de la aplicación
-├── app.py                              # Ejecución principal de la aplicación de la aplicación Streamlit ``Streamlit run app.py``
+├── app.py                              # Ejecución principal de la aplicación de la aplicación Streamlit
 ├── config.py                           # Configuraciones globales de la aplicación
 ├── requirements.txt                    # Dependencias del proyecto
 └── README.md                           # Este archivo se encuentra la guía preincipal LEEME
@@ -93,7 +90,7 @@ SmartWeatherForesight365/
 ---
 
 ## 🚀 **Guía de Uso**
-### 1. Instalación
+### 🔍 Instalación
 🔹1. Clona este repositorio:
 ```
 git clone https://github.com/RubenGamezTorrijos/SmartWeatherForesight365.git
@@ -105,55 +102,45 @@ cd SmartWeatherForesight365
 pip install -r requirements.txt
 ```
 
-### 2. Ejecución de los Módulos
-#### 🕷️ Obtener datos URL y guardarlos en CSV
-Obtiene los datos relacionados de la URL y los guarda en datasets en formato CSV:
-```
-python generate_datasets.py
-```
-**Parámetros:**
+🔹3. Ejecutar aplicación desde la ruta del paquete:
 
-- ``datasets``: Carpeta destino para los archivos CSV.
+`C:/ruta/SmartWeatherSingith/>`
+```
+Stramlit run app.py
+```
 
 ---
 
-#### 📇 Modelo entranmiento
-Aprende de los datos históricos obtenidos según los que le hayamos indicado en rango de fechas, mayor rango mayor entrenamiento:
+### 🕷️ Flujo de trabajo de la Aplicación
 
-```
-python train_model.py
-```
-**Parámetros:**
-
-- ``--models``: Directorio donde se procesará el modelo de entrenamiento.
-
----
-
-#### 🔍 Predictions
-En este módulo se encargará de realizar la predicción basándose en los modelos generados en el directorio **models** por nombre de ciudad:
-```
-python predict_weather.py"
-```
-**Parámetros:**
-- ``--predictions``: Guardado datos exportados en formato XLSX para poder visualizarlos en local.
+1. El usuario inicia la aplicación ejecutando `streamlit run app.py`.
+2. La aplicación carga la interfaz de usuario principal.
+3. El usuario selecciona una ciudad y un rango de fechas para la predicción.
+4. La aplicación obtiene datos históricos de la API de Meteostat si no están disponibles localmente.
+5. Los datos se procesan y limpian.
+6. Se entrenan modelos de predicción si no existen para la ciudad seleccionada.
+7. Se generan predicciones para el rango de fechas especificado.
+8. Los resultados se visualizan en varios gráficos y resúmenes.
+9. El usuario puede descargar las predicciones en formato Excel (*.xlsx).
 
 ---
 
-#### 🛠️ Desarrollo
-**Scripts Útiles**
-- Formatear Código:
-```
-bash dev-tools/format.sh
-```
-- Análisis Estático:
-```
-bash dev-tools/lint.sh
-```
-**Requisitos de Desarrollo**
-Instala las dependencias adicionales para desarrollo:
-```
-pip install -r dev-requirements.txt
-```
+#### 🛠️ Tecnologías utilizadas
+
+- Python 3.8+
+- Numpy para cálculos numéricos y manejo de matrices.
+- Scikit-learn para algoritmos de machine learning.
+- Flask para crear aplicaciones web y APIs.
+- Joblib para guardar y cargar modelos de machine learning.
+- Requests para realizar solicitudes HTTP.
+- BeautifulSoup para scraping de datos web.
+- Kaggle para acceder a datasets y competiciones.
+- Streamlit para crear interfaces interactivas.
+- Matplotlib para visualización de datos estáticos.
+- Pandas para manipulación y análisis de datos.
+- Plotly para visualizaciones interactivas.
+- Openpyxl para leer y escribir archivos Excel.
+- Python-dateutil para manejo avanzado de fechas y horas.
 
 ---
 
@@ -178,7 +165,9 @@ git push origin mi-funcionalidad.
 ---
 
 ## 🤖 Próximas Mejoras
-- Posibilidad de agregar gráficas según el tipo de análisis.
+- Agregar una menú adicional para que el usuario pueda realizar ajustes.
+- En los ajutes que el usuario pueda elegir la API que quiere usar y facilitar campos a rellena: URL y API KEY
+- Elegir que tipo de datos desea entrenar: Temperatura, Humedad, Presión y Velocidad del viento.
 
 ---
 
