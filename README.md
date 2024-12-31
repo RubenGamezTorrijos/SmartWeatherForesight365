@@ -76,6 +76,8 @@ Plataforma de análisis y monitorización de datos climatológicos para predecir
 
 ```plaintext
 SmartWeatherForesight365/
+├── .streamlit/                         # Directorio del framework Streamlit Web
+│   ├── config.toml                     # Configuración de Streamlit
 ├── datasets/                           # Almacenamiento datos históricos obtenidos de Meteostat en CSV
 │   └── [Ciudad]_Historial_Weather.csv       
 ├── ml/                                 # Modelos guardados de entrenamiento para su uso posterior
