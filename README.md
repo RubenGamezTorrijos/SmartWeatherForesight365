@@ -28,19 +28,20 @@ Plataforma de análisis y monitorización de datos climatológicos para predecir
 
 ## 📋 Indíce
 - [🌤️ **Smart Wather Foresight 365: Previsión Climatológica Inteligente**](#️-smart-wather-foresight-365-previsión-climatológica-inteligente)
-  - [📋 **Indíce**](#-indíce)
+  - [📋 Indíce](#-indíce)
   - [🌟 **Características**](#-características)
-  - [**Capturas de pantalla**](#-capturas-de-pantalla)
+  - [🖼️ Capturas de pantalla](#️-capturas-de-pantalla)
+  - [||](#)
   - [📂 **Arquitectura**](#-arquitectura)
   - [🚀 **Guía de Uso**](#-guía-de-uso)
-    - [🔍 **Instalación**](#-instalación)
-    - [🕷️ **Flujo de trabajo de la Aplicación**](#️-flujo-de-trabajo-de-la-aplicación)
-    - [🛠️ **Tecnologías utilizadas**](#️-tecnologías-utilizadas)
-  - [🤝 **Contribuciones**](#-contribuciones)
+    - [🔍 Instalación](#-instalación)
+    - [🕷️ Flujo de trabajo de la Aplicación](#️-flujo-de-trabajo-de-la-aplicación)
+      - [🛠️ Tecnologías utilizadas](#️-tecnologías-utilizadas)
+  - [🤝 Contribuciones](#-contribuciones)
     - [¿Quieres colaborar? ¡Eres bienvenido! Sigue estos pasos:](#quieres-colaborar-eres-bienvenido-sigue-estos-pasos)
-  - [🤖 **Próximas mejoras**](#-próximas-mejoras)
-  - [✨ **Créditos**](#-créditos)
-  - [📝 **Licencia**](#-licencia)
+  - [🤖 Próximas Mejoras](#-próximas-mejoras)
+  - [✨ Créditos](#-créditos)
+  - [📝 Licencia](#-licencia)
 
 ---
 
@@ -76,7 +77,9 @@ Plataforma de análisis y monitorización de datos climatológicos para predecir
 
 ```plaintext
 SmartWeatherForesight365/
-├── datasets/                           # Almacenamiento datos históricos obtenidos de Meteostat en CSV
+├── .streamlit/                         # Directorio del framework Streamlit Web
+│   ├── config.toml                     # Configuración de Streamlit
+obtenidos de Meteostat en CSV
 │   └── [Ciudad]_Historial_Weather.csv       
 ├── ml/                                 # Modelos guardados de entrenamiento para su uso posterior
 │   ├── [Ciudad]_[Parametro]_Model.pkl
