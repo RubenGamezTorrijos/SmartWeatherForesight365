@@ -4,19 +4,19 @@ Plataforma de análisis y monitorización de datos climatológicos para predecir
 
 ¡Bienvenido al proyecto **WeatherInsight**! 🎯 Este proyecto de computación 1 implementa un sistema de predicción inteligente para conocer la clima en días posteriores según necesidades, con modelos de aprendizaje y entrenamiento en **Python** y usando librerías.
 
-![Status](https://img.shields.io/badge/Estado-Desarrollo-yellow?style=flat-square)
-![GitHub license](https://img.shields.io/github/license/RubenGamezTorrijos/WeatherInsight?style=flat-square)
-![GitHub version](https://img.shields.io/github/v/tag/RubenGamezTorrijos/WeatherInsight?label=versión&style=flat-square)
-![GitHub repo size](https://img.shields.io/github/repo-size/RubenGamezTorrijos/WeatherInsight?style=flat-square)
-![GitHub Repo stars](https://img.shields.io/github/stars/RubenGamezTorrijos/WeatherInsight?style=social)
+![Status](https://img.shields.io/badge/Estado-Produccion-yellow?style=flat-square)
+![GitHub license](https://img.shields.io/github/license/RubenGamezTorrijos/SmartWeatherForesight365?style=flat-square)
+![GitHub version](https://img.shields.io/github/v/tag/RubenGamezTorrijos/SmartWeatherForesight365?label=versión&style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/RubenGamezTorrijos/SmartWeatherForesight365?style=flat-square)
+![GitHub Repo stars](https://img.shields.io/github/stars/RubenGamezTorrijos/SmartWeatherForesight365?style=social)
 
-![GitHub issues](https://img.shields.io/github/issues/RubenGamezTorrijos/WeatherInsight?style=flat-square)
-![GitHub forks](https://img.shields.io/github/forks/RubenGamezTorrijos/WeatherInsight?style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/RubenGamezTorrijos/WeatherInsight?style=flat-square)
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/RubenGamezTorrijos/WeatherInsight/main.yml?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/RubenGamezTorrijos/SmartWeatherForesight365?style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/RubenGamezTorrijos/SmartWeatherForesight365?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/RubenGamezTorrijos/SmartWeatherForesight365?style=flat-square)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/RubenGamezTorrijos/SmartWeatherForesight365/main.yml?style=flat-square)
 
 
-> **Versión actual:** 1.0.0  
+> **Versión actual:** 1.0.7  
 > **Plataforma:** Python v3.8.0^  
 > **Compatibilidad:** Windows, macOS, Linux
 
@@ -43,42 +43,52 @@ Plataforma de análisis y monitorización de datos climatológicos para predecir
 
 ## 🌟 **Características**
 
-- ✅ **Pentaho**: Encargado de obtener datos en CSV de URL y transformar datos.  
-- ✅ **OpenRefine**: Procesar contenido de datos CSV obtenidos para una limpieza óptima.  
-- ✅ **RapidMiner**: Proceso de mostrar gráficamente los datos de un modo más sencillo con módulos por bloques.
-- ✅ **Diseño modular**: Cada componente se desarrolla de forma independiente para facilitar la reutilización y mejora.  
-- ✅ **Pruebas unitarias**: Cada módulo incluye ejemplos de uso y pruebas básicas para garantizar su correcto funcionamiento.
-- ✅ **Lenguaje: Python**: El lenguaje utilizado para el aprendiaje de librerías se defininarán a continuación...
+- ✅ **API Meteostat**: Encargado de obtener datos históricos de clima de diversas ciudades.
+- ✅ **Procesamiento de datos**: Limpieza y preparación de datos CSV obtenidos para un análisis óptimo.
+- ✅ **Modelo de predicción**: Utilización de Random Forest para generar predicciones climáticas precisas.
+- ✅ **Visualización de datos**: Proceso de mostrar gráficamente los datos de un modo más sencillo con Streamlit y Plotly.
+- ✅ **Diseño modular**: Cada componente se desarrolla de forma independiente para facilitar la reutilización y mejora.
+- ✅ **Exportación de resultados**: Capacidad de exportar predicciones en formato Excel para análisis externos.
 
 ---
 
 ## 📂 **Estructura**
 
 ```plaintext
-weatherinsight/
+SmartWeatherForesight365/
 ├── datasets/                           # Almacenamiento datos históricos obtenidos de Meteostat en CSV
-│   ├── Valencia_historial_weather.csv       
-│   └── Madrid_historial_weather.csv         
-├── models/                             # Modelos guardados de entrenamiento para luego su uso
-│   ├── Valencia_weather_model.pkl      # generado automáticamente por "train_model.py"
-│   └── Madrid_weather_model.pkl        
-├── predictions/                        # Exportado datos predictivos en formato xls para mostrar
-│   ├── Valencia_future_predictions.xls
-│   └── Madrid_future_predictions.xls
-├── venv/        
-│   ├── Include 
-│   ├── Lib
-│   └── Scripts
-│   └── pyvenv.cfg
-├── api/
-│   └── api_conexion.py                 # Api conexión con que realiza la conexión KEY y credenciales con la url Metostat.
+│   └── [Ciudad]_Historial_Weather.csv       
+├── ml/                                 # Modelos guardados de entrenamiento para su uso posterior
+│   ├── [Ciudad]_[Parametro]_Model.pkl
+│   └── [Ciudad]_[Parametro]_Scaler.pkl
+├── predictions/                        # Exportado datos predictivos en formato Excel
+│   └── [Ciudad]_Future_Predictions.xlsx
 ├── app/
-│   ├── coordinates_util.py
-│   ├── generate_dataset.py             # Módulo para obtener datos de URL Meteostat para luego exportar en datasets
-│   ├── predict_weather.py              # Módulo de predictivo para generar y exportar datos en excel XLS
-│   └── train_model.py                  # Módulo de entramiento de datos obtenidos de historial CSV
-├── app.py                              # Función para ejecutar la aplicación de interfaz web gracias a la librería **Streamlit**
-└── README.md                           # Este archivo se encuentra la guía preincipal LEEME.
+│   ├── controllers/
+│   │   ├── api_controller.py           # Controlador para la conexión con la API de Meteostat
+│   │   ├── data_controller.py          # Controlador para el procesamiento de datos
+│   │   └── model_controller.py         # Controlador para la gestión de modelos de predicción
+│   ├── models/
+│   │   ├── dataset_model.py
+│   │   ├── prediction_model.py         # Modelo para generar predicciones
+│   │   └── training_model.py           # Modelo para entrenar con datos históricos
+│   └── views/
+│       ├── components/                 # Componentes de la interfaz de usuario
+│       │   ├── __init__.py             # Integración de los componentes
+│       │   ├── climate_chart.py        # Componente: Gráfica Clima histórico (temperatura, presión, etc...) historial años anteriores
+│       │   ├── precipitation_chart.py  # Componente: Gráfica previsión de precipitación
+│       │   ├── pressure_chart.py       # Componente: Gráfica previsión de presión atmosférica
+│       │   ├── summary.py              # Componente: Gráfica previsión resumen en cuatro columnas: Temperatura, Presión, Humedad y Precipitación
+│       │   ├── temperature_chart.py    # Componente: Gráfica previsión de temperatura (Máxima, Baja y Media)
+│       │   ├── wind_chart.py           # Componente: Gráfica previsión de velocidad del viento
+│       │   └── wind_rose.py            # Componente: Gráfica previsión dirección del viento
+│       ├── utils/
+│       │   └── data_processing.py      # Utilidades para el procesamiento de datos
+│       └── home.py                     # Vista principal de la aplicación
+├── app.py                              # Ejecución principal de la aplicación de la aplicación Streamlit ``Streamlit run app.py``
+├── config.py                           # Configuraciones globales de la aplicación
+├── requirements.txt                    # Dependencias del proyecto
+└── README.md                           # Este archivo se encuentra la guía preincipal LEEME
 ```
 ---
 
@@ -86,8 +96,8 @@ weatherinsight/
 ### 1. Instalación
 🔹1. Clona este repositorio:
 ```
-git clone https://github.com/tu-usuario/WeatherInsight.git
-cd WeatherInsight
+git clone https://github.com/RubenGamezTorrijos/SmartWeatherForesight365.git
+cd SmartWeatherForesight365
 ```
 
 🔹2. Instala las dependencias:
@@ -115,7 +125,7 @@ python train_model.py
 ```
 **Parámetros:**
 
-- ``--models``: Archivo donde se almacenará el índice invertido.
+- ``--models``: Directorio donde se procesará el modelo de entrenamiento.
 
 ---
 
@@ -125,7 +135,7 @@ En este módulo se encargará de realizar la predicción basándose en los model
 python predict_weather.py"
 ```
 **Parámetros:**
-- ``--predictions``: Guardado datos exportados en formato XLS para poder visualizarlos en local.
+- ``--predictions``: Guardado datos exportados en formato XLSX para poder visualizarlos en local.
 
 ---
 
@@ -175,7 +185,5 @@ git push origin mi-funcionalidad.
 ## ✨ Créditos
 Este proyecto no sería posible sin la dedicación de sus integrantes:
 
-- **Luca 🕷️** - Pendiente de asignar tareas
-- **Sergio 📇** - Pendiente de asignar tareas
-- **Rubén 🔍** - Organización y distribución tareas
+- **Rubén Gámez Torrijos 🔍** - Organización, distribución de tareas y desarrollo del proyecto.
 Agradecemos también a la Universidad Europea por inspirar este proyecto académico. 🙌
