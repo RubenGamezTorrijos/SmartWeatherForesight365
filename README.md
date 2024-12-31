@@ -1,4 +1,4 @@
-# 🌤️ **Smart Foresight 365: Predicción Climatológica Inteligente**
+# 🌤️ **Smart Wather Foresight 365: Previsión Climatológica Inteligente**
 
 Plataforma de análisis y monitorización de datos climatológicos para predecir condiciones atmosféricas basado en datos históricos.
 
@@ -23,7 +23,7 @@ Plataforma de análisis y monitorización de datos climatológicos para predecir
 ---
 
 ## 📋 Indíce
-- [🌤️ **Smart Foresight 365: Predicción Climatológica Inteligente**](#️-smart-foresight-365-predicción-climatológica-inteligente)
+- [🌤️ **Smart Wather Foresight 365: Previsión Climatológica Inteligente**](#️-smart-wather-foresight-365-previsión-climatológica-inteligente)
   - [📋 Indíce](#-indíce)
   - [🌟 **Características**](#-características)
   - [📂 **Estructura**](#-estructura)

@@ -28,7 +28,7 @@ def create_temperature_chart(prediction_data):
             x=prediction_data['Fecha'],
             y=prediction_data['Temperatura Media (°C)'],
             name="Temperatura Media",
-            line=dict(color="black", width=2)
+            line=dict(color="orange", width=2)
         )
     )
     

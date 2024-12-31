@@ -9,7 +9,7 @@ def create_pressure_chart(prediction_data):
             x=prediction_data['Fecha'],
             y=prediction_data['Presión Atmosférica (hPa)'],
             name="Presión Atmosférica",
-            line=dict(color="green", width=2)
+            line=dict(color='rgb(150, 70, 255)', width=2)
         )
     )
     fig_pres.update_layout(

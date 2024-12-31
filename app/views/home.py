@@ -13,9 +13,9 @@ from .components import (
 from .utils.data_processing import process_prediction_data
 
 def create_home_page(api_controller, data_controller, model_controller, prediction_model):
-    st.set_page_config(page_title="Smart Foresight 365", page_icon="🌤️", layout="wide", initial_sidebar_state="expanded")
+    st.set_page_config(page_title="Smart Weather Foresight 365", page_icon="🌤️", layout="wide", initial_sidebar_state="expanded")
     
-    st.title("Smart Foresight 365 🌤️")
+    st.title("Smart Weather Foresight 365 🌤️")
     st.subheader("Predicción meteorológica basada en entrenamiento de datos históricos")
 
     if 'show_results' not in st.session_state:

@@ -85,7 +85,7 @@ def create_climate_chart():
                 x=months,
                 y=metric_options[selected_metric]['data'][selected_year]['avg'],
                 name='Temperatura Media',
-                line=dict(color='rgb(70, 70, 70)', width=2)
+                line=dict(color='rgb(10, 150, 0)', width=2)
             )
         )
     else:

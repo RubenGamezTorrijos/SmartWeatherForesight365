@@ -40,7 +40,7 @@ def create_wind_rose(prediction_data):
         theta=directions,
         fill='toself',
         fillcolor='rgba(55, 136, 216, 0.5)',
-        line=dict(color='rgb(55, 136, 216)', width=2),
+        line=dict(color='rgb(0, 70, 255)', width=2),
         name='Dirección del Viento'
     ))
     

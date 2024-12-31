@@ -9,7 +9,7 @@ def create_wind_chart(prediction_data):
             x=prediction_data['Fecha'],
             y=prediction_data['Velocidad del Viento (km/h)'],
             name="Velocidad del Viento",
-            line=dict(color="blue", width=2)
+            line=dict(color='rgb(70, 140, 255)', width=2)
         )
     )
     fig_wind.update_layout(
