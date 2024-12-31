@@ -1,0 +1,18 @@
+views/
+├── __init__.py
+├── home.py
+├── components/
+│   ├── __init__.py
+│   ├── header.py
+│   ├── summary.py
+│   ├── temperature_chart.py
+│   ├── precipitation_chart.py
+│   ├── wind_chart.py
+│   ├── wind_rose.py
+│   ├── pressure_chart.py
+│   └── climate_chart.py
+└── utils/
+    ├── __init__.py
+    ├── theme.py
+    └── data_processing.py
+
