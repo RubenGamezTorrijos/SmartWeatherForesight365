@@ -16,25 +16,31 @@ Plataforma de análisis y monitorización de datos climatológicos para predecir
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/RubenGamezTorrijos/SmartWeatherForesight365/main.yml?style=flat-square)
 
 
-> **Versión actual:** 1.0.7  
+> [!NOTE]
+>  **Versión actual:** 1.0.7  
 > **Plataforma:** Python v3.8.0^  
 > **Compatibilidad:** Windows, macOS, Linux
+> **Navegadores:** Chrome, Brave, Firefox y Edge
 
+> [!WARNING]
+> Actualmente este proyecto ha pasado a realizarse individualmente.
 ---
 
 ## 📋 Indíce
 - [🌤️ **Smart Wather Foresight 365: Previsión Climatológica Inteligente**](#️-smart-wather-foresight-365-previsión-climatológica-inteligente)
-  - [📋 Indíce](#-indíce)
+  - [📋 **Indíce**](#-indíce)
   - [🌟 **Características**](#-características)
-  - [📂 **Estructura**](#-estructura)
+  - [**Capturas de pantalla**](#-capturas-de-pantalla)
+  - [📂 **Arquitectura**](#-arquitectura)
   - [🚀 **Guía de Uso**](#-guía-de-uso)
-    - [🔍 Instalación](#-instalación)
-    - [🕷️ Flujo de trabajo de la Aplicación](#️-flujo-de-trabajo-de-la-aplicación)
-      - [🛠️ Tecnologías utilizadas](#️-tecnologías-utilizadas)
-  - [🤝 Contribuciones](#-contribuciones)
+    - [🔍 **Instalación**](#-instalación)
+    - [🕷️ **Flujo de trabajo de la Aplicación**](#️-flujo-de-trabajo-de-la-aplicación)
+    - [🛠️ **Tecnologías utilizadas**](#️-tecnologías-utilizadas)
+  - [🤝 **Contribuciones**](#-contribuciones)
     - [¿Quieres colaborar? ¡Eres bienvenido! Sigue estos pasos:](#quieres-colaborar-eres-bienvenido-sigue-estos-pasos)
-  - [🤖 Próximas Mejoras](#-próximas-mejoras)
-  - [✨ Créditos](#-créditos)
+  - [🤖 **Próximas mejoras**](#-próximas-mejoras)
+  - [✨ **Créditos**](#-créditos)
+  - [📝 **Licencia**](#-licencia)
 
 ---
 
@@ -49,7 +55,24 @@ Plataforma de análisis y monitorización de datos climatológicos para predecir
 
 ---
 
-## 📂 **Estructura**
+## 🖼️ Capturas de pantalla
+
+| Captura Formulario | Captura Resumen Predicción |
+|---------------------------|--------------------|
+|![SmartWeatherForesight365_Prevision_Valencia_10ENE2025_Captura_1_Formulario](https://github.com/user-attachments/assets/0fa2e604-a1fc-4449-931f-e91590cab4bf)|![SmartWeatherForesight365_Prevision_Valencia_10ENE2025_Captura_2_Resumen_Prediccion_4-Widget_2024-12-31-12_29_59](https://github.com/user-attachments/assets/c86fad05-dc0d-40cf-bc9b-9bdc72a120cc)|
+| Captura Temperatura | Captura Precipitación |
+|![SmartWeatherForesight365_Prevision_Valencia_10ENE2025_Captura_3_Temperatura_2024-12-31-12_29_59](https://github.com/user-attachments/assets/f9d27d40-6252-474b-b25e-eda810d7d6bd)|![SmartWeatherForesight365_Prevision_Valencia_10ENE2025_Captura_4_Precipitacion_2024-12-31-12_29_59](https://github.com/user-attachments/assets/b0e27cc9-cdaa-4cc3-99c8-1b17494a5c8c)|
+| Captura Velocidad Viento | Captura Dirección Viento |
+|![SmartWeatherForesight365_Prevision_Valencia_10ENE2025_Captura_5_Velocidad_del_Viento_2024-12-31-12_29_59](https://github.com/user-attachments/assets/940e614c-98ae-4d43-83c9-7685feed2312)|![SmartWeatherForesight365_Prevision_Valencia_10ENE2025_Captura_6_Direccion_del_Viento_2024-12-31-12_29_59](https://github.com/user-attachments/assets/ca641d63-4b68-4309-a8d3-b5d5ff758504)|
+| Captura Presión Atmosférica | Captura Historial Clima |
+|![SmartWeatherForesight365_Prevision_Valencia_10ENE2025_Captura_7_Presion_Atmosferica_2024-12-31-12_29_59](https://github.com/user-attachments/assets/8de040ae-e8a1-4fd7-8d5a-860fcbd13c8a)|![SmartWeatherForesight365_Prevision_Valencia_10ENE2025_Captura_8_Historial_Clima_2024-12-31-12_29_59](https://github.com/user-attachments/assets/8b499185-2c36-4baa-a549-0d9bcd1eb97c)|
+
+| Captura página principal |
+|--------------------------|
+|![SmartWeatherForesight365_Prevision_Valencia_10ENE2025_Captura_General_Todo_2024-12-31-12_29_59](https://github.com/user-attachments/assets/9242752b-c1d0-4bcd-8b31-c757a73e790a)|
+---
+
+## 📂 **Arquitectura**
 
 ```plaintext
 SmartWeatherForesight365/
@@ -106,7 +129,7 @@ pip install -r requirements.txt
 
 `C:/ruta/SmartWeatherSingith/>`
 ```
-Stramlit run app.py
+stramlit run app.py
 ```
 
 ---
@@ -176,3 +199,6 @@ Este proyecto no sería posible sin la dedicación de sus integrantes:
 
 - **Rubén Gámez Torrijos 🔍** - Organización, distribución de tareas y desarrollo del proyecto.
 Agradecemos también a la Universidad Europea por inspirar este proyecto académico. 🙌
+
+## 📝 Licencia
+Este proyecto está bajo la licencia Apache 2.0. ¡Siéntete libre de usarlo, modificarlo y compartirlo!

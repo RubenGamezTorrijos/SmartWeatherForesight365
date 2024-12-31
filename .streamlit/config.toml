@@ -1,0 +1,13 @@
+# Personalización del tema claro
+[theme.light]
+primaryColor = "#0ca8eb"  # Color principal en modo claro
+textColor = "#072f4a"  # Color del texto en modo claro
+backgroundColor = "#ffffff"  # Fondo principal en modo claro
+secondaryBackgroundColor = "#f8f9fa"  # Fondo secundario en modo claro
+
+# Personalización del tema oscuro
+[theme.dark]
+secondaryColor = "#016aa3"  # Color principal en modo oscuro
+textColor = "#f0f9ff"  # Color del texto en modo oscuro
+backgroundColor = "#121212"  # Fondo principal en modo oscuro
+secondaryBackgroundColor = "#1f1f1f"  # Fondo secundario en modo oscuro

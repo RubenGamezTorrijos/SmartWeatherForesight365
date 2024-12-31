@@ -13,6 +13,5 @@ views/
 │   └── climate_chart.py
 └── utils/
     ├── __init__.py
-    ├── theme.py
     └── data_processing.py
 

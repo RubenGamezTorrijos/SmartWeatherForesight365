@@ -5,7 +5,8 @@ import numpy as np
 
 def create_climate_chart():
     st.markdown("---")
-    st.subheader("Clima")
+    st.subheader("Historial climatológico")
+    st.text("En este apartado podrás conocer el historial del clima de años anteriores.")
 
     # Crear datos mensuales para el año actual y años anteriores
     current_year = datetime.now().year
@@ -16,7 +17,7 @@ def create_climate_chart():
     col1, col2 = st.columns(2)
     with col1:
         selected_metric = st.selectbox(
-            'Seleccione el tipo de datos:',
+            'Seleccione el tipo de dato:',
             ['Temperatura', 'Precipitación Total', 'Velocidad Viento', 'Presión Aire', 'Duración Sol'],
             key='climate_metric'
         )
