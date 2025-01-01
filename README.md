@@ -32,7 +32,7 @@ Plataforma de análisis y monitorización de datos climatológicos para predecir
   - [🌟 **Características**](#-características)
   - [**Capturas de pantalla**](#-capturas-de-pantalla)
   - [📂 **Arquitectura**](#-arquitectura)
-  - [🚀 **Guía de Uso**](#-guía-de-uso)
+  - [🚀 **Guía de uso**](#-guía-de-uso)
     - [🔍 **Instalación**](#-instalación)
     - [🕷️ **Flujo de trabajo de la Aplicación**](#️-flujo-de-trabajo-de-la-aplicación)
     - [🛠️ **Tecnologías utilizadas**](#️-tecnologías-utilizadas)
@@ -220,7 +220,7 @@ gh pr create --base main --title "Título del PR" --body "Descripción del PR"
 
 ---
 
-## 🤖 Próximas Mejoras
+## 🤖 Próximas mejoras
 - Agregar una menú adicional para que el usuario pueda realizar ajustes.
 - En los ajutes que el usuario pueda elegir la API que quiere usar y facilitar campos a rellena: URL y API KEY
 - Elegir que tipo de datos desea entrenar: Temperatura, Humedad, Presión y Velocidad del viento.
