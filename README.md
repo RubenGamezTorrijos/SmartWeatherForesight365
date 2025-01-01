@@ -171,20 +171,52 @@ stramlit run app.py
 ## 🤝 Contribuciones
 ### ¿Quieres colaborar? ¡Eres bienvenido! Sigue estos pasos:
 
-🔹1. Haz un fork de este repositorio.
-🔹2. Crea un branch para tu funcionalidad:
+🔹1. Configura tu entorno
+- Crea una cuenta en GitHub.
+- Instala Git en tu computadora.
+- Configura tu nombre de usuario y correo electrónico en Git:
+```bash
+git config --global user.name "TuNombre"
+git config --global user.email "TuCorreo@example.com"
 ```
-git checkout -b mi-funcionalidad
+🔹2. Clona el repositorio en tu máquina local:
+```bash
+git clone https://github.com/tu-usuario/tu-repositorio.git
 ```
-🔹3. Haz un commit con tus cambios:
+🔹3. Crea un branch(rama) para tu funcionalidad:
+```bash
+git checkout -b mi-rama
 ```
+🔹4. Haz un commit con tus cambios:
+```bash
 git commit -m "Añadir mi funcionalidad"
 ```
-🔹4. Sube tus cambios:
+🔹5. Sube tus cambios:
+```bash
+git push origin mi-rama.
 ```
-git push origin mi-funcionalidad.
+🔹6. Abre un pull request en este repositorio:
+
+- Ve al repositorio en GitHub.
+- Verás un mensaje en la parte superior que dice algo como:
+- "Recently pushed branches:" seguido del nombre de tu rama.
+- Haz clic en "Compare & pull request".
+- Completa los detalles del PR (título, descripción, etc.).
+- Haz clic en "Create pull request".
+
+🔹7. Usar la URL para un atajo.
+Si prefieres, puedes generar un enlace directo para abrir un PR. La estructura de la URL es:
+```bash
+https://github.com/usuario/repositorio/compare/main...nombre-de-la-rama
 ```
-🔹5. Abre un pull request en este repositorio.
+- Reemplaza usuario, repositorio, y nombre-de-la-rama con los valores correspondientes.
+
+🔹8. Si trabajas en equipos grandes y usas herramientas como GitHub CLI, puedes usar este comando para crear un PR directamente desde la terminal:
+```
+gh pr create --base main --title "Título del PR" --body "Descripción del PR"
+
+```
+⚠️ Esto requiere que tengas instalada y configurada la CLI de GitHub (gh).
 
 ---
 
