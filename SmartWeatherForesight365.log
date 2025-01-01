@@ -1,14 +1,14 @@
 2024-12-29 12:48:39,862 - WARNING - openpyxl not available. Excel formatting will be limited.
 2024-12-29 12:48:47,513 - INFO - Buscando coordenadas para la ciudad: Huelva
 2024-12-29 12:48:47,915 - INFO - Coordenadas para Huelva: (Lat: 37.2575874, Lon: -6.9484945)
-2024-12-29 12:48:47,959 - INFO - Solicitando datos meteorolÛgicos para Huelva
-2024-12-29 12:48:47,960 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par·metros: {'lat': 37.2575874, 'lon': -6.9484945, 'start': '2019-12-31', 'end': '2024-12-29'}
+2024-12-29 12:48:47,959 - INFO - Solicitando datos meteorol√≥gicos para Huelva
+2024-12-29 12:48:47,960 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par√°metros: {'lat': 37.2575874, 'lon': -6.9484945, 'start': '2019-12-31', 'end': '2024-12-29'}
 2024-12-29 12:48:48,312 - INFO - Respuesta recibida correctamente.
 2024-12-29 12:48:48,377 - INFO - Intentando guardar datos en: datasets/Huelva_Historial_Weather.csv
 2024-12-29 12:48:48,464 - INFO - Archivo CSV creado exitosamente: datasets/Huelva_Historial_Weather.csv
 2024-12-29 12:48:48,465 - INFO - Datos guardados en datasets/Huelva_Historial_Weather.csv
 2024-12-29 12:48:48,480 - INFO - Intentando cargar datos desde: datasets\Huelva_Historial_Weather.csv
-2024-12-29 12:48:48,505 - INFO - Columnas presentes despuÈs del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
+2024-12-29 12:48:48,505 - INFO - Columnas presentes despu√©s del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
 2024-12-29 12:48:48,523 - INFO - Datos procesados para Huelva. Shape: (1826, 12)
 2024-12-29 12:48:48,524 - INFO - Columnas finales: ['date', 'temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion', 'tsun', 'city']
 2024-12-29 12:48:50,582 - INFO - Modelo y scaler guardados para Huelva - temp
@@ -50,14 +50,14 @@ RandomForestRegressor does not accept missing values encoded as NaN natively. Fo
 2024-12-29 12:49:06,678 - INFO - Archivo CSV creado: predictions/Huelva_Future_Predictions.csv
 2024-12-29 12:52:16,807 - INFO - Buscando coordenadas para la ciudad: Huelva
 2024-12-29 12:52:17,174 - INFO - Coordenadas para Huelva: (Lat: 37.2575874, Lon: -6.9484945)
-2024-12-29 12:52:17,224 - INFO - Solicitando datos meteorolÛgicos para Huelva
-2024-12-29 12:52:17,225 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par·metros: {'lat': 37.2575874, 'lon': -6.9484945, 'start': '2019-12-31', 'end': '2024-12-29'}
+2024-12-29 12:52:17,224 - INFO - Solicitando datos meteorol√≥gicos para Huelva
+2024-12-29 12:52:17,225 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par√°metros: {'lat': 37.2575874, 'lon': -6.9484945, 'start': '2019-12-31', 'end': '2024-12-29'}
 2024-12-29 12:52:17,577 - INFO - Respuesta recibida correctamente.
 2024-12-29 12:52:17,640 - INFO - Intentando guardar datos en: datasets/Huelva_Historial_Weather.csv
 2024-12-29 12:52:17,726 - INFO - Archivo CSV creado exitosamente: datasets/Huelva_Historial_Weather.csv
 2024-12-29 12:52:17,727 - INFO - Datos guardados en datasets/Huelva_Historial_Weather.csv
 2024-12-29 12:52:17,746 - INFO - Intentando cargar datos desde: datasets\Huelva_Historial_Weather.csv
-2024-12-29 12:52:17,773 - INFO - Columnas presentes despuÈs del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
+2024-12-29 12:52:17,773 - INFO - Columnas presentes despu√©s del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
 2024-12-29 12:52:17,801 - INFO - Datos procesados para Huelva. Shape: (1826, 12)
 2024-12-29 12:52:17,802 - INFO - Columnas finales: ['date', 'temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion', 'tsun', 'city']
 2024-12-29 12:52:19,972 - INFO - Modelo y scaler guardados para Huelva - temp
@@ -99,14 +99,14 @@ RandomForestRegressor does not accept missing values encoded as NaN natively. Fo
 2024-12-29 12:52:36,123 - INFO - Archivo Excel creado exitosamente: predictions/Huelva_Future_Predictions.xlsx
 2024-12-29 12:55:55,990 - INFO - Buscando coordenadas para la ciudad: Madrid
 2024-12-29 12:55:56,395 - INFO - Coordenadas para Madrid: (Lat: 40.4167047, Lon: -3.7035825)
-2024-12-29 12:55:56,444 - INFO - Solicitando datos meteorolÛgicos para Madrid
-2024-12-29 12:55:56,445 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par·metros: {'lat': 40.4167047, 'lon': -3.7035825, 'start': '2019-12-31', 'end': '2024-12-29'}
+2024-12-29 12:55:56,444 - INFO - Solicitando datos meteorol√≥gicos para Madrid
+2024-12-29 12:55:56,445 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par√°metros: {'lat': 40.4167047, 'lon': -3.7035825, 'start': '2019-12-31', 'end': '2024-12-29'}
 2024-12-29 12:55:56,828 - INFO - Respuesta recibida correctamente.
 2024-12-29 12:55:56,890 - INFO - Intentando guardar datos en: datasets/Madrid_Historial_Weather.csv
 2024-12-29 12:55:56,969 - INFO - Archivo CSV creado exitosamente: datasets/Madrid_Historial_Weather.csv
 2024-12-29 12:55:56,970 - INFO - Datos guardados en datasets/Madrid_Historial_Weather.csv
 2024-12-29 12:55:56,987 - INFO - Intentando cargar datos desde: datasets\Madrid_Historial_Weather.csv
-2024-12-29 12:55:57,013 - INFO - Columnas presentes despuÈs del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
+2024-12-29 12:55:57,013 - INFO - Columnas presentes despu√©s del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
 2024-12-29 12:55:57,037 - INFO - Datos procesados para Madrid. Shape: (1826, 12)
 2024-12-29 12:55:57,037 - INFO - Columnas finales: ['date', 'temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion', 'tsun', 'city']
 2024-12-29 12:55:59,098 - INFO - Modelo y scaler guardados para Madrid - temp
@@ -258,14 +258,14 @@ RandomForestRegressor does not accept missing values encoded as NaN natively. Fo
 2024-12-29 12:56:12,979 - INFO - Archivo Excel creado exitosamente: predictions/Madrid_Future_Predictions.xlsx
 2024-12-29 12:56:52,474 - INFO - Buscando coordenadas para la ciudad: Barcelona
 2024-12-29 12:56:52,796 - INFO - Coordenadas para Barcelona: (Lat: 41.3828939, Lon: 2.1774322)
-2024-12-29 12:56:52,848 - INFO - Solicitando datos meteorolÛgicos para Barcelona
-2024-12-29 12:56:52,849 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par·metros: {'lat': 41.3828939, 'lon': 2.1774322, 'start': '2019-12-31', 'end': '2024-12-29'}
+2024-12-29 12:56:52,848 - INFO - Solicitando datos meteorol√≥gicos para Barcelona
+2024-12-29 12:56:52,849 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par√°metros: {'lat': 41.3828939, 'lon': 2.1774322, 'start': '2019-12-31', 'end': '2024-12-29'}
 2024-12-29 12:56:53,236 - INFO - Respuesta recibida correctamente.
 2024-12-29 12:56:53,300 - INFO - Intentando guardar datos en: datasets/Barcelona_Historial_Weather.csv
 2024-12-29 12:56:53,388 - INFO - Archivo CSV creado exitosamente: datasets/Barcelona_Historial_Weather.csv
 2024-12-29 12:56:53,389 - INFO - Datos guardados en datasets/Barcelona_Historial_Weather.csv
 2024-12-29 12:56:53,404 - INFO - Intentando cargar datos desde: datasets\Barcelona_Historial_Weather.csv
-2024-12-29 12:56:53,429 - INFO - Columnas presentes despuÈs del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
+2024-12-29 12:56:53,429 - INFO - Columnas presentes despu√©s del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
 2024-12-29 12:56:53,445 - INFO - Datos procesados para Barcelona. Shape: (1826, 12)
 2024-12-29 12:56:53,446 - INFO - Columnas finales: ['date', 'temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion', 'tsun', 'city']
 2024-12-29 12:56:55,346 - INFO - Modelo y scaler guardados para Barcelona - temp
@@ -307,14 +307,14 @@ RandomForestRegressor does not accept missing values encoded as NaN natively. Fo
 2024-12-29 12:57:10,884 - INFO - Archivo Excel creado exitosamente: predictions/Barcelona_Future_Predictions.xlsx
 2024-12-29 12:57:51,109 - INFO - Buscando coordenadas para la ciudad: Barcelona
 2024-12-29 12:57:51,389 - INFO - Coordenadas para Barcelona: (Lat: 41.3828939, Lon: 2.1774322)
-2024-12-29 12:57:51,434 - INFO - Solicitando datos meteorolÛgicos para Barcelona
-2024-12-29 12:57:51,434 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par·metros: {'lat': 41.3828939, 'lon': 2.1774322, 'start': '2019-12-31', 'end': '2024-12-29'}
+2024-12-29 12:57:51,434 - INFO - Solicitando datos meteorol√≥gicos para Barcelona
+2024-12-29 12:57:51,434 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par√°metros: {'lat': 41.3828939, 'lon': 2.1774322, 'start': '2019-12-31', 'end': '2024-12-29'}
 2024-12-29 12:57:51,845 - INFO - Respuesta recibida correctamente.
 2024-12-29 12:57:51,907 - INFO - Intentando guardar datos en: datasets/Barcelona_Historial_Weather.csv
 2024-12-29 12:57:52,008 - INFO - Archivo CSV creado exitosamente: datasets/Barcelona_Historial_Weather.csv
 2024-12-29 12:57:52,009 - INFO - Datos guardados en datasets/Barcelona_Historial_Weather.csv
 2024-12-29 12:57:52,028 - INFO - Intentando cargar datos desde: datasets\Barcelona_Historial_Weather.csv
-2024-12-29 12:57:52,054 - INFO - Columnas presentes despuÈs del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
+2024-12-29 12:57:52,054 - INFO - Columnas presentes despu√©s del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
 2024-12-29 12:57:52,073 - INFO - Datos procesados para Barcelona. Shape: (1826, 12)
 2024-12-29 12:57:52,074 - INFO - Columnas finales: ['date', 'temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion', 'tsun', 'city']
 2024-12-29 12:57:53,948 - INFO - Modelo y scaler guardados para Barcelona - temp
@@ -356,14 +356,14 @@ RandomForestRegressor does not accept missing values encoded as NaN natively. Fo
 2024-12-29 12:58:10,088 - INFO - Archivo Excel creado exitosamente: predictions/Barcelona_Future_Predictions.xlsx
 2024-12-29 13:14:25,837 - INFO - Buscando coordenadas para la ciudad: Madrid
 2024-12-29 13:14:26,198 - INFO - Coordenadas para Madrid: (Lat: 40.4167047, Lon: -3.7035825)
-2024-12-29 13:14:26,246 - INFO - Solicitando datos meteorolÛgicos para Madrid
-2024-12-29 13:14:26,246 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par·metros: {'lat': 40.4167047, 'lon': -3.7035825, 'start': '2019-12-31', 'end': '2024-12-29'}
+2024-12-29 13:14:26,246 - INFO - Solicitando datos meteorol√≥gicos para Madrid
+2024-12-29 13:14:26,246 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par√°metros: {'lat': 40.4167047, 'lon': -3.7035825, 'start': '2019-12-31', 'end': '2024-12-29'}
 2024-12-29 13:14:26,668 - INFO - Respuesta recibida correctamente.
 2024-12-29 13:14:26,723 - INFO - Intentando guardar datos en: datasets/Madrid_Historial_Weather.csv
 2024-12-29 13:14:26,800 - INFO - Archivo CSV creado exitosamente: datasets/Madrid_Historial_Weather.csv
 2024-12-29 13:14:26,801 - INFO - Datos guardados en datasets/Madrid_Historial_Weather.csv
 2024-12-29 13:14:26,821 - INFO - Intentando cargar datos desde: datasets\Madrid_Historial_Weather.csv
-2024-12-29 13:14:26,852 - INFO - Columnas presentes despuÈs del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
+2024-12-29 13:14:26,852 - INFO - Columnas presentes despu√©s del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
 2024-12-29 13:14:26,871 - INFO - Datos procesados para Madrid. Shape: (1826, 12)
 2024-12-29 13:14:26,871 - INFO - Columnas finales: ['date', 'temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion', 'tsun', 'city']
 2024-12-29 13:14:28,885 - INFO - Modelo y scaler guardados para Madrid - temp
@@ -641,14 +641,14 @@ RandomForestRegressor does not accept missing values encoded as NaN natively. Fo
 2024-12-29 13:14:42,707 - INFO - Archivo Excel creado exitosamente: predictions/Madrid_Future_Predictions.xlsx
 2024-12-29 13:16:45,600 - INFO - Buscando coordenadas para la ciudad: Madrid
 2024-12-29 13:16:45,872 - INFO - Coordenadas para Madrid: (Lat: 40.4167047, Lon: -3.7035825)
-2024-12-29 13:16:45,922 - INFO - Solicitando datos meteorolÛgicos para Madrid
-2024-12-29 13:16:45,923 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par·metros: {'lat': 40.4167047, 'lon': -3.7035825, 'start': '2019-12-31', 'end': '2024-12-29'}
+2024-12-29 13:16:45,922 - INFO - Solicitando datos meteorol√≥gicos para Madrid
+2024-12-29 13:16:45,923 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par√°metros: {'lat': 40.4167047, 'lon': -3.7035825, 'start': '2019-12-31', 'end': '2024-12-29'}
 2024-12-29 13:16:46,264 - INFO - Respuesta recibida correctamente.
 2024-12-29 13:16:46,322 - INFO - Intentando guardar datos en: datasets/Madrid_Historial_Weather.csv
 2024-12-29 13:16:46,398 - INFO - Archivo CSV creado exitosamente: datasets/Madrid_Historial_Weather.csv
 2024-12-29 13:16:46,399 - INFO - Datos guardados en datasets/Madrid_Historial_Weather.csv
 2024-12-29 13:16:46,415 - INFO - Intentando cargar datos desde: datasets\Madrid_Historial_Weather.csv
-2024-12-29 13:16:46,440 - INFO - Columnas presentes despuÈs del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
+2024-12-29 13:16:46,440 - INFO - Columnas presentes despu√©s del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
 2024-12-29 13:16:46,457 - INFO - Datos procesados para Madrid. Shape: (1826, 12)
 2024-12-29 13:16:46,458 - INFO - Columnas finales: ['date', 'temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion', 'tsun', 'city']
 2024-12-29 13:16:48,438 - INFO - Modelo y scaler guardados para Madrid - temp
@@ -1214,14 +1214,14 @@ RandomForestRegressor does not accept missing values encoded as NaN natively. Fo
 2024-12-29 13:17:02,613 - INFO - Archivo Excel creado exitosamente: predictions/Madrid_Future_Predictions.xlsx
 2024-12-29 13:17:22,312 - INFO - Buscando coordenadas para la ciudad: Huelva
 2024-12-29 13:17:22,589 - INFO - Coordenadas para Huelva: (Lat: 37.2575874, Lon: -6.9484945)
-2024-12-29 13:17:22,633 - INFO - Solicitando datos meteorolÛgicos para Huelva
-2024-12-29 13:17:22,633 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par·metros: {'lat': 37.2575874, 'lon': -6.9484945, 'start': '2019-12-31', 'end': '2024-12-29'}
+2024-12-29 13:17:22,633 - INFO - Solicitando datos meteorol√≥gicos para Huelva
+2024-12-29 13:17:22,633 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par√°metros: {'lat': 37.2575874, 'lon': -6.9484945, 'start': '2019-12-31', 'end': '2024-12-29'}
 2024-12-29 13:17:22,978 - INFO - Respuesta recibida correctamente.
 2024-12-29 13:17:23,047 - INFO - Intentando guardar datos en: datasets/Huelva_Historial_Weather.csv
 2024-12-29 13:17:23,127 - INFO - Archivo CSV creado exitosamente: datasets/Huelva_Historial_Weather.csv
 2024-12-29 13:17:23,127 - INFO - Datos guardados en datasets/Huelva_Historial_Weather.csv
 2024-12-29 13:17:23,143 - INFO - Intentando cargar datos desde: datasets\Huelva_Historial_Weather.csv
-2024-12-29 13:17:23,164 - INFO - Columnas presentes despuÈs del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
+2024-12-29 13:17:23,164 - INFO - Columnas presentes despu√©s del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
 2024-12-29 13:17:23,181 - INFO - Datos procesados para Huelva. Shape: (1826, 12)
 2024-12-29 13:17:23,182 - INFO - Columnas finales: ['date', 'temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion', 'tsun', 'city']
 2024-12-29 13:17:25,234 - INFO - Modelo y scaler guardados para Huelva - temp
@@ -1263,14 +1263,14 @@ RandomForestRegressor does not accept missing values encoded as NaN natively. Fo
 2024-12-29 13:17:41,628 - INFO - Archivo Excel creado exitosamente: predictions/Huelva_Future_Predictions.xlsx
 2024-12-29 17:13:21,437 - INFO - Buscando coordenadas para la ciudad: Zaragoza
 2024-12-29 17:13:21,785 - INFO - Coordenadas para Zaragoza: (Lat: 41.6521342, Lon: -0.8809428)
-2024-12-29 17:13:21,828 - INFO - Solicitando datos meteorolÛgicos para Zaragoza
-2024-12-29 17:13:21,829 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par·metros: {'lat': 41.6521342, 'lon': -0.8809428, 'start': '2019-12-31', 'end': '2024-12-29'}
+2024-12-29 17:13:21,828 - INFO - Solicitando datos meteorol√≥gicos para Zaragoza
+2024-12-29 17:13:21,829 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par√°metros: {'lat': 41.6521342, 'lon': -0.8809428, 'start': '2019-12-31', 'end': '2024-12-29'}
 2024-12-29 17:13:22,969 - INFO - Respuesta recibida correctamente.
 2024-12-29 17:13:23,025 - INFO - Intentando guardar datos en: datasets/Zaragoza_Historial_Weather.csv
 2024-12-29 17:13:23,111 - INFO - Archivo CSV creado exitosamente: datasets/Zaragoza_Historial_Weather.csv
 2024-12-29 17:13:23,112 - INFO - Datos guardados en datasets/Zaragoza_Historial_Weather.csv
 2024-12-29 17:13:23,127 - INFO - Intentando cargar datos desde: datasets\Zaragoza_Historial_Weather.csv
-2024-12-29 17:13:23,153 - INFO - Columnas presentes despuÈs del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
+2024-12-29 17:13:23,153 - INFO - Columnas presentes despu√©s del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
 2024-12-29 17:13:23,171 - INFO - Datos procesados para Zaragoza. Shape: (1826, 12)
 2024-12-29 17:13:23,171 - INFO - Columnas finales: ['date', 'temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion', 'tsun', 'city']
 2024-12-29 17:13:25,437 - INFO - Modelo y scaler guardados para Zaragoza - temp
@@ -1312,14 +1312,14 @@ RandomForestRegressor does not accept missing values encoded as NaN natively. Fo
 2024-12-29 17:13:43,771 - INFO - Archivo Excel creado exitosamente: predictions/Zaragoza_Future_Predictions.xlsx
 2024-12-29 17:36:23,622 - INFO - Buscando coordenadas para la ciudad: Huelva
 2024-12-29 17:36:23,954 - INFO - Coordenadas para Huelva: (Lat: 37.2575874, Lon: -6.9484945)
-2024-12-29 17:36:23,998 - INFO - Solicitando datos meteorolÛgicos para Huelva
-2024-12-29 17:36:23,999 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par·metros: {'lat': 37.2575874, 'lon': -6.9484945, 'start': '2019-12-31', 'end': '2024-12-29'}
+2024-12-29 17:36:23,998 - INFO - Solicitando datos meteorol√≥gicos para Huelva
+2024-12-29 17:36:23,999 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par√°metros: {'lat': 37.2575874, 'lon': -6.9484945, 'start': '2019-12-31', 'end': '2024-12-29'}
 2024-12-29 17:36:24,425 - INFO - Respuesta recibida correctamente.
 2024-12-29 17:36:24,484 - INFO - Intentando guardar datos en: datasets/Huelva_Historial_Weather.csv
 2024-12-29 17:36:24,562 - INFO - Archivo CSV creado exitosamente: datasets/Huelva_Historial_Weather.csv
 2024-12-29 17:36:24,562 - INFO - Datos guardados en datasets/Huelva_Historial_Weather.csv
 2024-12-29 17:36:24,581 - INFO - Intentando cargar datos desde: datasets\Huelva_Historial_Weather.csv
-2024-12-29 17:36:24,608 - INFO - Columnas presentes despuÈs del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
+2024-12-29 17:36:24,608 - INFO - Columnas presentes despu√©s del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
 2024-12-29 17:36:24,625 - INFO - Datos procesados para Huelva. Shape: (1826, 12)
 2024-12-29 17:36:24,626 - INFO - Columnas finales: ['date', 'temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion', 'tsun', 'city']
 2024-12-29 17:36:26,752 - INFO - Modelo y scaler guardados para Huelva - temp
@@ -1361,14 +1361,14 @@ RandomForestRegressor does not accept missing values encoded as NaN natively. Fo
 2024-12-29 17:36:43,194 - INFO - Archivo Excel creado exitosamente: predictions/Huelva_Future_Predictions.xlsx
 2024-12-29 17:37:21,471 - INFO - Buscando coordenadas para la ciudad: Huelva
 2024-12-29 17:37:21,836 - INFO - Coordenadas para Huelva: (Lat: 37.2575874, Lon: -6.9484945)
-2024-12-29 17:37:21,893 - INFO - Solicitando datos meteorolÛgicos para Huelva
-2024-12-29 17:37:21,894 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par·metros: {'lat': 37.2575874, 'lon': -6.9484945, 'start': '2019-12-31', 'end': '2024-12-29'}
+2024-12-29 17:37:21,893 - INFO - Solicitando datos meteorol√≥gicos para Huelva
+2024-12-29 17:37:21,894 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par√°metros: {'lat': 37.2575874, 'lon': -6.9484945, 'start': '2019-12-31', 'end': '2024-12-29'}
 2024-12-29 17:37:22,248 - INFO - Respuesta recibida correctamente.
 2024-12-29 17:37:22,303 - INFO - Intentando guardar datos en: datasets/Huelva_Historial_Weather.csv
 2024-12-29 17:37:22,382 - INFO - Archivo CSV creado exitosamente: datasets/Huelva_Historial_Weather.csv
 2024-12-29 17:37:22,383 - INFO - Datos guardados en datasets/Huelva_Historial_Weather.csv
 2024-12-29 17:37:22,403 - INFO - Intentando cargar datos desde: datasets\Huelva_Historial_Weather.csv
-2024-12-29 17:37:22,430 - INFO - Columnas presentes despuÈs del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
+2024-12-29 17:37:22,430 - INFO - Columnas presentes despu√©s del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
 2024-12-29 17:37:22,446 - INFO - Datos procesados para Huelva. Shape: (1826, 12)
 2024-12-29 17:37:22,447 - INFO - Columnas finales: ['date', 'temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion', 'tsun', 'city']
 2024-12-29 17:37:24,547 - INFO - Modelo y scaler guardados para Huelva - temp
@@ -1410,14 +1410,14 @@ RandomForestRegressor does not accept missing values encoded as NaN natively. Fo
 2024-12-29 17:37:41,220 - INFO - Archivo Excel creado exitosamente: predictions/Huelva_Future_Predictions.xlsx
 2024-12-29 17:40:09,000 - INFO - Buscando coordenadas para la ciudad: Huelva
 2024-12-29 17:40:09,389 - INFO - Coordenadas para Huelva: (Lat: 37.2575874, Lon: -6.9484945)
-2024-12-29 17:40:09,452 - INFO - Solicitando datos meteorolÛgicos para Huelva
-2024-12-29 17:40:09,453 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par·metros: {'lat': 37.2575874, 'lon': -6.9484945, 'start': '2019-12-31', 'end': '2024-12-29'}
+2024-12-29 17:40:09,452 - INFO - Solicitando datos meteorol√≥gicos para Huelva
+2024-12-29 17:40:09,453 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par√°metros: {'lat': 37.2575874, 'lon': -6.9484945, 'start': '2019-12-31', 'end': '2024-12-29'}
 2024-12-29 17:40:09,980 - INFO - Respuesta recibida correctamente.
 2024-12-29 17:40:10,064 - INFO - Intentando guardar datos en: datasets/Huelva_Historial_Weather.csv
 2024-12-29 17:40:10,180 - INFO - Archivo CSV creado exitosamente: datasets/Huelva_Historial_Weather.csv
 2024-12-29 17:40:10,181 - INFO - Datos guardados en datasets/Huelva_Historial_Weather.csv
 2024-12-29 17:40:10,210 - INFO - Intentando cargar datos desde: datasets\Huelva_Historial_Weather.csv
-2024-12-29 17:40:10,243 - INFO - Columnas presentes despuÈs del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
+2024-12-29 17:40:10,243 - INFO - Columnas presentes despu√©s del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
 2024-12-29 17:40:10,266 - INFO - Datos procesados para Huelva. Shape: (1826, 12)
 2024-12-29 17:40:10,267 - INFO - Columnas finales: ['date', 'temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion', 'tsun', 'city']
 2024-12-29 17:40:13,108 - ERROR - Error al entrenar los modelos: [Errno 13] Permission denied: 'ml/Huelva_temp_Model.pkl'
@@ -1432,14 +1432,14 @@ Traceback (most recent call last):
 PermissionError: [Errno 13] Permission denied: 'ml/Huelva_temp_Model.pkl'
 2024-12-29 17:40:21,563 - INFO - Buscando coordenadas para la ciudad: Huelva
 2024-12-29 17:40:21,890 - INFO - Coordenadas para Huelva: (Lat: 37.2575874, Lon: -6.9484945)
-2024-12-29 17:40:21,935 - INFO - Solicitando datos meteorolÛgicos para Huelva
-2024-12-29 17:40:21,936 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par·metros: {'lat': 37.2575874, 'lon': -6.9484945, 'start': '2019-12-31', 'end': '2024-12-29'}
+2024-12-29 17:40:21,935 - INFO - Solicitando datos meteorol√≥gicos para Huelva
+2024-12-29 17:40:21,936 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par√°metros: {'lat': 37.2575874, 'lon': -6.9484945, 'start': '2019-12-31', 'end': '2024-12-29'}
 2024-12-29 17:40:22,344 - INFO - Respuesta recibida correctamente.
 2024-12-29 17:40:22,402 - INFO - Intentando guardar datos en: datasets/Huelva_Historial_Weather.csv
 2024-12-29 17:40:22,483 - INFO - Archivo CSV creado exitosamente: datasets/Huelva_Historial_Weather.csv
 2024-12-29 17:40:22,484 - INFO - Datos guardados en datasets/Huelva_Historial_Weather.csv
 2024-12-29 17:40:22,500 - INFO - Intentando cargar datos desde: datasets\Huelva_Historial_Weather.csv
-2024-12-29 17:40:22,520 - INFO - Columnas presentes despuÈs del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
+2024-12-29 17:40:22,520 - INFO - Columnas presentes despu√©s del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
 2024-12-29 17:40:22,547 - INFO - Datos procesados para Huelva. Shape: (1826, 12)
 2024-12-29 17:40:22,547 - INFO - Columnas finales: ['date', 'temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion', 'tsun', 'city']
 2024-12-29 17:40:24,721 - INFO - Modelo y scaler guardados para Huelva - temp
@@ -1479,38 +1479,38 @@ RandomForestRegressor does not accept missing values encoded as NaN natively. Fo
 2024-12-29 17:40:40,955 - ERROR - Error al predecir presion: Input X contains NaN.
 RandomForestRegressor does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
 2024-12-29 17:40:41,596 - INFO - Archivo Excel creado exitosamente: predictions/Huelva_Future_Predictions.xlsx
-2024-12-29 18:08:02,777 - INFO - Buscando coordenadas para la ciudad: M·laga
-2024-12-29 18:08:03,428 - INFO - Coordenadas para M·laga: (Lat: 36.7213028, Lon: -4.4216366)
-2024-12-29 18:08:03,474 - INFO - Solicitando datos meteorolÛgicos para M·laga
-2024-12-29 18:08:03,475 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par·metros: {'lat': 36.7213028, 'lon': -4.4216366, 'start': '2019-12-31', 'end': '2024-12-29'}
+2024-12-29 18:08:02,777 - INFO - Buscando coordenadas para la ciudad: M√°laga
+2024-12-29 18:08:03,428 - INFO - Coordenadas para M√°laga: (Lat: 36.7213028, Lon: -4.4216366)
+2024-12-29 18:08:03,474 - INFO - Solicitando datos meteorol√≥gicos para M√°laga
+2024-12-29 18:08:03,475 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par√°metros: {'lat': 36.7213028, 'lon': -4.4216366, 'start': '2019-12-31', 'end': '2024-12-29'}
 2024-12-29 18:08:04,338 - INFO - Respuesta recibida correctamente.
-2024-12-29 18:08:04,392 - INFO - Intentando guardar datos en: datasets/M·laga_Historial_Weather.csv
-2024-12-29 18:08:04,492 - INFO - Archivo CSV creado exitosamente: datasets/M·laga_Historial_Weather.csv
-2024-12-29 18:08:04,493 - INFO - Datos guardados en datasets/M·laga_Historial_Weather.csv
-2024-12-29 18:08:04,509 - INFO - Intentando cargar datos desde: datasets\M·laga_Historial_Weather.csv
-2024-12-29 18:08:04,534 - INFO - Columnas presentes despuÈs del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
-2024-12-29 18:08:04,554 - INFO - Datos procesados para M·laga. Shape: (1826, 12)
+2024-12-29 18:08:04,392 - INFO - Intentando guardar datos en: datasets/M√°laga_Historial_Weather.csv
+2024-12-29 18:08:04,492 - INFO - Archivo CSV creado exitosamente: datasets/M√°laga_Historial_Weather.csv
+2024-12-29 18:08:04,493 - INFO - Datos guardados en datasets/M√°laga_Historial_Weather.csv
+2024-12-29 18:08:04,509 - INFO - Intentando cargar datos desde: datasets\M√°laga_Historial_Weather.csv
+2024-12-29 18:08:04,534 - INFO - Columnas presentes despu√©s del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
+2024-12-29 18:08:04,554 - INFO - Datos procesados para M√°laga. Shape: (1826, 12)
 2024-12-29 18:08:04,555 - INFO - Columnas finales: ['date', 'temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion', 'tsun', 'city']
-2024-12-29 18:08:06,851 - INFO - Modelo y scaler guardados para M·laga - temp
-2024-12-29 18:08:09,058 - INFO - Modelo y scaler guardados para M·laga - temp_min
-2024-12-29 18:08:11,270 - INFO - Modelo y scaler guardados para M·laga - temp_max
-2024-12-29 18:08:13,053 - INFO - Modelo y scaler guardados para M·laga - precipitacion
-2024-12-29 18:08:13,610 - INFO - Modelo y scaler guardados para M·laga - nieve
-2024-12-29 18:08:15,948 - INFO - Modelo y scaler guardados para M·laga - direccion_viento
-2024-12-29 18:08:18,398 - INFO - Modelo y scaler guardados para M·laga - velocidad_viento
-2024-12-29 18:08:20,854 - INFO - Modelo y scaler guardados para M·laga - punto_rocio
-2024-12-29 18:08:23,086 - INFO - Modelo y scaler guardados para M·laga - presion
-2024-12-29 18:08:23,087 - INFO - Todos los modelos entrenados y guardados para M·laga
-2024-12-29 18:08:23,177 - INFO - Modelo y scaler cargados para M·laga - temp
-2024-12-29 18:08:23,256 - INFO - Modelo y scaler cargados para M·laga - temp_min
-2024-12-29 18:08:23,340 - INFO - Modelo y scaler cargados para M·laga - temp_max
-2024-12-29 18:08:23,395 - INFO - Modelo y scaler cargados para M·laga - precipitacion
-2024-12-29 18:08:23,445 - INFO - Modelo y scaler cargados para M·laga - nieve
-2024-12-29 18:08:23,535 - INFO - Modelo y scaler cargados para M·laga - direccion_viento
-2024-12-29 18:08:23,616 - INFO - Modelo y scaler cargados para M·laga - velocidad_viento
-2024-12-29 18:08:23,704 - INFO - Modelo y scaler cargados para M·laga - punto_rocio
-2024-12-29 18:08:23,796 - INFO - Modelo y scaler cargados para M·laga - presion
-2024-12-29 18:08:23,797 - INFO - Todos los modelos cargados para M·laga
+2024-12-29 18:08:06,851 - INFO - Modelo y scaler guardados para M√°laga - temp
+2024-12-29 18:08:09,058 - INFO - Modelo y scaler guardados para M√°laga - temp_min
+2024-12-29 18:08:11,270 - INFO - Modelo y scaler guardados para M√°laga - temp_max
+2024-12-29 18:08:13,053 - INFO - Modelo y scaler guardados para M√°laga - precipitacion
+2024-12-29 18:08:13,610 - INFO - Modelo y scaler guardados para M√°laga - nieve
+2024-12-29 18:08:15,948 - INFO - Modelo y scaler guardados para M√°laga - direccion_viento
+2024-12-29 18:08:18,398 - INFO - Modelo y scaler guardados para M√°laga - velocidad_viento
+2024-12-29 18:08:20,854 - INFO - Modelo y scaler guardados para M√°laga - punto_rocio
+2024-12-29 18:08:23,086 - INFO - Modelo y scaler guardados para M√°laga - presion
+2024-12-29 18:08:23,087 - INFO - Todos los modelos entrenados y guardados para M√°laga
+2024-12-29 18:08:23,177 - INFO - Modelo y scaler cargados para M√°laga - temp
+2024-12-29 18:08:23,256 - INFO - Modelo y scaler cargados para M√°laga - temp_min
+2024-12-29 18:08:23,340 - INFO - Modelo y scaler cargados para M√°laga - temp_max
+2024-12-29 18:08:23,395 - INFO - Modelo y scaler cargados para M√°laga - precipitacion
+2024-12-29 18:08:23,445 - INFO - Modelo y scaler cargados para M√°laga - nieve
+2024-12-29 18:08:23,535 - INFO - Modelo y scaler cargados para M√°laga - direccion_viento
+2024-12-29 18:08:23,616 - INFO - Modelo y scaler cargados para M√°laga - velocidad_viento
+2024-12-29 18:08:23,704 - INFO - Modelo y scaler cargados para M√°laga - punto_rocio
+2024-12-29 18:08:23,796 - INFO - Modelo y scaler cargados para M√°laga - presion
+2024-12-29 18:08:23,797 - INFO - Todos los modelos cargados para M√°laga
 2024-12-29 18:08:23,831 - ERROR - Error al predecir temp: Input X contains NaN.
 RandomForestRegressor does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
 2024-12-29 18:08:23,834 - ERROR - Error al predecir temp_min: Input X contains NaN.
@@ -1527,17 +1527,17 @@ RandomForestRegressor does not accept missing values encoded as NaN natively. Fo
 RandomForestRegressor does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
 2024-12-29 18:08:23,855 - ERROR - Error al predecir presion: Input X contains NaN.
 RandomForestRegressor does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
-2024-12-29 18:08:25,035 - INFO - Archivo Excel creado exitosamente: predictions/M·laga_Future_Predictions.xlsx
+2024-12-29 18:08:25,035 - INFO - Archivo Excel creado exitosamente: predictions/M√°laga_Future_Predictions.xlsx
 2024-12-30 00:58:18,732 - INFO - Buscando coordenadas para la ciudad: Galicia
 2024-12-30 00:58:19,145 - INFO - Coordenadas para Galicia: (Lat: 42.61946, Lon: -7.863112)
-2024-12-30 00:58:19,191 - INFO - Solicitando datos meteorolÛgicos para Galicia
-2024-12-30 00:58:19,192 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par·metros: {'lat': 42.61946, 'lon': -7.863112, 'start': '2020-01-01', 'end': '2024-12-30'}
+2024-12-30 00:58:19,191 - INFO - Solicitando datos meteorol√≥gicos para Galicia
+2024-12-30 00:58:19,192 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par√°metros: {'lat': 42.61946, 'lon': -7.863112, 'start': '2020-01-01', 'end': '2024-12-30'}
 2024-12-30 00:58:20,443 - INFO - Respuesta recibida correctamente.
 2024-12-30 00:58:20,523 - INFO - Intentando guardar datos en: datasets/Galicia_Historial_Weather.csv
 2024-12-30 00:58:20,614 - INFO - Archivo CSV creado exitosamente: datasets/Galicia_Historial_Weather.csv
 2024-12-30 00:58:20,615 - INFO - Datos guardados en datasets/Galicia_Historial_Weather.csv
 2024-12-30 00:58:20,632 - INFO - Intentando cargar datos desde: datasets\Galicia_Historial_Weather.csv
-2024-12-30 00:58:20,658 - INFO - Columnas presentes despuÈs del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
+2024-12-30 00:58:20,658 - INFO - Columnas presentes despu√©s del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
 2024-12-30 00:58:20,680 - INFO - Datos procesados para Galicia. Shape: (1826, 12)
 2024-12-30 00:58:20,681 - INFO - Columnas finales: ['date', 'temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion', 'tsun', 'city']
 2024-12-30 00:58:22,949 - INFO - Modelo y scaler guardados para Galicia - temp
@@ -1579,14 +1579,14 @@ RandomForestRegressor does not accept missing values encoded as NaN natively. Fo
 2024-12-30 00:58:42,668 - INFO - Archivo Excel creado exitosamente: predictions/Galicia_Future_Predictions.xlsx
 2024-12-30 00:59:58,357 - INFO - Buscando coordenadas para la ciudad: Galicia
 2024-12-30 00:59:58,780 - INFO - Coordenadas para Galicia: (Lat: 42.61946, Lon: -7.863112)
-2024-12-30 00:59:58,825 - INFO - Solicitando datos meteorolÛgicos para Galicia
-2024-12-30 00:59:58,826 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par·metros: {'lat': 42.61946, 'lon': -7.863112, 'start': '2020-01-01', 'end': '2024-12-30'}
+2024-12-30 00:59:58,825 - INFO - Solicitando datos meteorol√≥gicos para Galicia
+2024-12-30 00:59:58,826 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par√°metros: {'lat': 42.61946, 'lon': -7.863112, 'start': '2020-01-01', 'end': '2024-12-30'}
 2024-12-30 00:59:59,252 - INFO - Respuesta recibida correctamente.
 2024-12-30 00:59:59,306 - INFO - Intentando guardar datos en: datasets/Galicia_Historial_Weather.csv
 2024-12-30 00:59:59,398 - INFO - Archivo CSV creado exitosamente: datasets/Galicia_Historial_Weather.csv
 2024-12-30 00:59:59,398 - INFO - Datos guardados en datasets/Galicia_Historial_Weather.csv
 2024-12-30 00:59:59,412 - INFO - Intentando cargar datos desde: datasets\Galicia_Historial_Weather.csv
-2024-12-30 00:59:59,434 - INFO - Columnas presentes despuÈs del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
+2024-12-30 00:59:59,434 - INFO - Columnas presentes despu√©s del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
 2024-12-30 00:59:59,451 - INFO - Datos procesados para Galicia. Shape: (1826, 12)
 2024-12-30 00:59:59,451 - INFO - Columnas finales: ['date', 'temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion', 'tsun', 'city']
 2024-12-30 01:00:01,774 - INFO - Modelo y scaler guardados para Galicia - temp
@@ -1628,14 +1628,14 @@ RandomForestRegressor does not accept missing values encoded as NaN natively. Fo
 2024-12-30 01:00:20,762 - INFO - Archivo Excel creado exitosamente: predictions/Galicia_Future_Predictions.xlsx
 2024-12-30 01:01:24,177 - INFO - Buscando coordenadas para la ciudad: Galicia
 2024-12-30 01:01:24,565 - INFO - Coordenadas para Galicia: (Lat: 42.61946, Lon: -7.863112)
-2024-12-30 01:01:24,610 - INFO - Solicitando datos meteorolÛgicos para Galicia
-2024-12-30 01:01:24,610 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par·metros: {'lat': 42.61946, 'lon': -7.863112, 'start': '2020-01-01', 'end': '2024-12-30'}
+2024-12-30 01:01:24,610 - INFO - Solicitando datos meteorol√≥gicos para Galicia
+2024-12-30 01:01:24,610 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par√°metros: {'lat': 42.61946, 'lon': -7.863112, 'start': '2020-01-01', 'end': '2024-12-30'}
 2024-12-30 01:01:25,016 - INFO - Respuesta recibida correctamente.
 2024-12-30 01:01:25,071 - INFO - Intentando guardar datos en: datasets/Galicia_Historial_Weather.csv
 2024-12-30 01:01:25,158 - INFO - Archivo CSV creado exitosamente: datasets/Galicia_Historial_Weather.csv
 2024-12-30 01:01:25,159 - INFO - Datos guardados en datasets/Galicia_Historial_Weather.csv
 2024-12-30 01:01:25,177 - INFO - Intentando cargar datos desde: datasets\Galicia_Historial_Weather.csv
-2024-12-30 01:01:25,201 - INFO - Columnas presentes despuÈs del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
+2024-12-30 01:01:25,201 - INFO - Columnas presentes despu√©s del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
 2024-12-30 01:01:25,219 - INFO - Datos procesados para Galicia. Shape: (1826, 12)
 2024-12-30 01:01:25,219 - INFO - Columnas finales: ['date', 'temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion', 'tsun', 'city']
 2024-12-30 01:01:27,475 - INFO - Modelo y scaler guardados para Galicia - temp
@@ -1677,14 +1677,14 @@ RandomForestRegressor does not accept missing values encoded as NaN natively. Fo
 2024-12-30 01:01:46,783 - INFO - Archivo Excel creado exitosamente: predictions/Galicia_Future_Predictions.xlsx
 2024-12-30 01:03:29,274 - INFO - Buscando coordenadas para la ciudad: Galicia
 2024-12-30 01:03:29,675 - INFO - Coordenadas para Galicia: (Lat: 42.61946, Lon: -7.863112)
-2024-12-30 01:03:29,737 - INFO - Solicitando datos meteorolÛgicos para Galicia
-2024-12-30 01:03:29,737 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par·metros: {'lat': 42.61946, 'lon': -7.863112, 'start': '2020-01-01', 'end': '2024-12-30'}
+2024-12-30 01:03:29,737 - INFO - Solicitando datos meteorol√≥gicos para Galicia
+2024-12-30 01:03:29,737 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par√°metros: {'lat': 42.61946, 'lon': -7.863112, 'start': '2020-01-01', 'end': '2024-12-30'}
 2024-12-30 01:03:30,185 - INFO - Respuesta recibida correctamente.
 2024-12-30 01:03:30,240 - INFO - Intentando guardar datos en: datasets/Galicia_Historial_Weather.csv
 2024-12-30 01:03:30,327 - INFO - Archivo CSV creado exitosamente: datasets/Galicia_Historial_Weather.csv
 2024-12-30 01:03:30,328 - INFO - Datos guardados en datasets/Galicia_Historial_Weather.csv
 2024-12-30 01:03:30,345 - INFO - Intentando cargar datos desde: datasets\Galicia_Historial_Weather.csv
-2024-12-30 01:03:30,368 - INFO - Columnas presentes despuÈs del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
+2024-12-30 01:03:30,368 - INFO - Columnas presentes despu√©s del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
 2024-12-30 01:03:30,383 - INFO - Datos procesados para Galicia. Shape: (1826, 12)
 2024-12-30 01:03:30,384 - INFO - Columnas finales: ['date', 'temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion', 'tsun', 'city']
 2024-12-30 01:03:32,646 - INFO - Modelo y scaler guardados para Galicia - temp
@@ -1726,14 +1726,14 @@ RandomForestRegressor does not accept missing values encoded as NaN natively. Fo
 2024-12-30 01:03:51,526 - INFO - Archivo Excel creado exitosamente: predictions/Galicia_Future_Predictions.xlsx
 2024-12-30 01:11:28,174 - INFO - Buscando coordenadas para la ciudad: Murcia
 2024-12-30 01:11:28,617 - INFO - Coordenadas para Murcia: (Lat: 37.9923795, Lon: -1.1305431)
-2024-12-30 01:11:28,664 - INFO - Solicitando datos meteorolÛgicos para Murcia
-2024-12-30 01:11:28,665 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par·metros: {'lat': 37.9923795, 'lon': -1.1305431, 'start': '2020-01-01', 'end': '2024-12-30'}
+2024-12-30 01:11:28,664 - INFO - Solicitando datos meteorol√≥gicos para Murcia
+2024-12-30 01:11:28,665 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par√°metros: {'lat': 37.9923795, 'lon': -1.1305431, 'start': '2020-01-01', 'end': '2024-12-30'}
 2024-12-30 01:11:29,739 - INFO - Respuesta recibida correctamente.
 2024-12-30 01:11:29,799 - INFO - Intentando guardar datos en: datasets/Murcia_Historial_Weather.csv
 2024-12-30 01:11:29,891 - INFO - Archivo CSV creado exitosamente: datasets/Murcia_Historial_Weather.csv
 2024-12-30 01:11:29,892 - INFO - Datos guardados en datasets/Murcia_Historial_Weather.csv
 2024-12-30 01:11:29,909 - INFO - Intentando cargar datos desde: datasets\Murcia_Historial_Weather.csv
-2024-12-30 01:11:29,930 - INFO - Columnas presentes despuÈs del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
+2024-12-30 01:11:29,930 - INFO - Columnas presentes despu√©s del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
 2024-12-30 01:11:29,949 - INFO - Datos procesados para Murcia. Shape: (1826, 12)
 2024-12-30 01:11:29,950 - INFO - Columnas finales: ['date', 'temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion', 'tsun', 'city']
 2024-12-30 01:11:31,908 - INFO - Modelo y scaler guardados para Murcia - temp
@@ -1775,14 +1775,14 @@ RandomForestRegressor does not accept missing values encoded as NaN natively. Fo
 2024-12-30 01:11:47,191 - INFO - Archivo Excel creado exitosamente: predictions/Murcia_Future_Predictions.xlsx
 2024-12-30 01:14:35,810 - INFO - Buscando coordenadas para la ciudad: Badajoz
 2024-12-30 01:14:36,319 - INFO - Coordenadas para Badajoz: (Lat: 38.878187, Lon: -6.9701115)
-2024-12-30 01:14:36,378 - INFO - Solicitando datos meteorolÛgicos para Badajoz
-2024-12-30 01:14:36,379 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par·metros: {'lat': 38.878187, 'lon': -6.9701115, 'start': '2020-01-01', 'end': '2024-12-30'}
+2024-12-30 01:14:36,378 - INFO - Solicitando datos meteorol√≥gicos para Badajoz
+2024-12-30 01:14:36,379 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par√°metros: {'lat': 38.878187, 'lon': -6.9701115, 'start': '2020-01-01', 'end': '2024-12-30'}
 2024-12-30 01:14:38,315 - INFO - Respuesta recibida correctamente.
 2024-12-30 01:14:38,371 - INFO - Intentando guardar datos en: datasets/Badajoz_Historial_Weather.csv
 2024-12-30 01:14:38,460 - INFO - Archivo CSV creado exitosamente: datasets/Badajoz_Historial_Weather.csv
 2024-12-30 01:14:38,460 - INFO - Datos guardados en datasets/Badajoz_Historial_Weather.csv
 2024-12-30 01:14:38,477 - INFO - Intentando cargar datos desde: datasets\Badajoz_Historial_Weather.csv
-2024-12-30 01:14:38,497 - INFO - Columnas presentes despuÈs del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
+2024-12-30 01:14:38,497 - INFO - Columnas presentes despu√©s del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
 2024-12-30 01:14:38,514 - INFO - Datos procesados para Badajoz. Shape: (1826, 12)
 2024-12-30 01:14:38,514 - INFO - Columnas finales: ['date', 'temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion', 'tsun', 'city']
 2024-12-30 01:14:40,739 - INFO - Modelo y scaler guardados para Badajoz - temp
@@ -1824,14 +1824,14 @@ RandomForestRegressor does not accept missing values encoded as NaN natively. Fo
 2024-12-30 01:14:58,670 - INFO - Archivo Excel creado exitosamente: predictions/Badajoz_Future_Predictions.xlsx
 2024-12-30 01:16:24,223 - INFO - Buscando coordenadas para la ciudad: Lisboa
 2024-12-30 01:16:24,676 - INFO - Coordenadas para Lisboa: (Lat: 40.4323229, Lon: -3.7237281)
-2024-12-30 01:16:24,728 - INFO - Solicitando datos meteorolÛgicos para Lisboa
-2024-12-30 01:16:24,730 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par·metros: {'lat': 40.4323229, 'lon': -3.7237281, 'start': '2020-01-01', 'end': '2024-12-30'}
+2024-12-30 01:16:24,728 - INFO - Solicitando datos meteorol√≥gicos para Lisboa
+2024-12-30 01:16:24,730 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par√°metros: {'lat': 40.4323229, 'lon': -3.7237281, 'start': '2020-01-01', 'end': '2024-12-30'}
 2024-12-30 01:16:26,250 - INFO - Respuesta recibida correctamente.
 2024-12-30 01:16:26,305 - INFO - Intentando guardar datos en: datasets/Lisboa_Historial_Weather.csv
 2024-12-30 01:16:26,383 - INFO - Archivo CSV creado exitosamente: datasets/Lisboa_Historial_Weather.csv
 2024-12-30 01:16:26,384 - INFO - Datos guardados en datasets/Lisboa_Historial_Weather.csv
 2024-12-30 01:16:26,401 - INFO - Intentando cargar datos desde: datasets\Lisboa_Historial_Weather.csv
-2024-12-30 01:16:26,424 - INFO - Columnas presentes despuÈs del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
+2024-12-30 01:16:26,424 - INFO - Columnas presentes despu√©s del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
 2024-12-30 01:16:26,441 - INFO - Datos procesados para Lisboa. Shape: (1826, 12)
 2024-12-30 01:16:26,441 - INFO - Columnas finales: ['date', 'temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion', 'tsun', 'city']
 2024-12-30 01:16:28,449 - INFO - Modelo y scaler guardados para Lisboa - temp
@@ -2091,14 +2091,14 @@ RandomForestRegressor does not accept missing values encoded as NaN natively. Fo
 2024-12-30 01:16:42,786 - INFO - Archivo Excel creado exitosamente: predictions/Lisboa_Future_Predictions.xlsx
 2024-12-30 01:17:25,044 - INFO - Buscando coordenadas para la ciudad: Lisboa
 2024-12-30 01:17:25,614 - INFO - Coordenadas para Lisboa: (Lat: 40.4323229, Lon: -3.7237281)
-2024-12-30 01:17:25,658 - INFO - Solicitando datos meteorolÛgicos para Lisboa
-2024-12-30 01:17:25,659 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par·metros: {'lat': 40.4323229, 'lon': -3.7237281, 'start': '2020-01-01', 'end': '2024-12-30'}
+2024-12-30 01:17:25,658 - INFO - Solicitando datos meteorol√≥gicos para Lisboa
+2024-12-30 01:17:25,659 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par√°metros: {'lat': 40.4323229, 'lon': -3.7237281, 'start': '2020-01-01', 'end': '2024-12-30'}
 2024-12-30 01:17:26,028 - INFO - Respuesta recibida correctamente.
 2024-12-30 01:17:26,093 - INFO - Intentando guardar datos en: datasets/Lisboa_Historial_Weather.csv
 2024-12-30 01:17:26,171 - INFO - Archivo CSV creado exitosamente: datasets/Lisboa_Historial_Weather.csv
 2024-12-30 01:17:26,172 - INFO - Datos guardados en datasets/Lisboa_Historial_Weather.csv
 2024-12-30 01:17:26,187 - INFO - Intentando cargar datos desde: datasets\Lisboa_Historial_Weather.csv
-2024-12-30 01:17:26,208 - INFO - Columnas presentes despuÈs del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
+2024-12-30 01:17:26,208 - INFO - Columnas presentes despu√©s del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
 2024-12-30 01:17:26,227 - INFO - Datos procesados para Lisboa. Shape: (1826, 12)
 2024-12-30 01:17:26,228 - INFO - Columnas finales: ['date', 'temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion', 'tsun', 'city']
 2024-12-30 01:17:28,170 - INFO - Modelo y scaler guardados para Lisboa - temp
@@ -2142,14 +2142,14 @@ RandomForestRegressor does not accept missing values encoded as NaN natively. Fo
 2024-12-30 01:17:41,380 - INFO - Archivo Excel creado exitosamente: predictions/Lisboa_Future_Predictions.xlsx
 2024-12-30 01:19:29,725 - INFO - Buscando coordenadas para la ciudad: Lisboa
 2024-12-30 01:19:30,198 - INFO - Coordenadas para Lisboa: (Lat: 40.4323229, Lon: -3.7237281)
-2024-12-30 01:19:30,247 - INFO - Solicitando datos meteorolÛgicos para Lisboa
-2024-12-30 01:19:30,248 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par·metros: {'lat': 40.4323229, 'lon': -3.7237281, 'start': '2020-01-01', 'end': '2024-12-30'}
+2024-12-30 01:19:30,247 - INFO - Solicitando datos meteorol√≥gicos para Lisboa
+2024-12-30 01:19:30,248 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par√°metros: {'lat': 40.4323229, 'lon': -3.7237281, 'start': '2020-01-01', 'end': '2024-12-30'}
 2024-12-30 01:19:30,618 - INFO - Respuesta recibida correctamente.
 2024-12-30 01:19:30,673 - INFO - Intentando guardar datos en: datasets/Lisboa_Historial_Weather.csv
 2024-12-30 01:19:30,756 - INFO - Archivo CSV creado exitosamente: datasets/Lisboa_Historial_Weather.csv
 2024-12-30 01:19:30,757 - INFO - Datos guardados en datasets/Lisboa_Historial_Weather.csv
 2024-12-30 01:19:30,773 - INFO - Intentando cargar datos desde: datasets\Lisboa_Historial_Weather.csv
-2024-12-30 01:19:30,797 - INFO - Columnas presentes despuÈs del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
+2024-12-30 01:19:30,797 - INFO - Columnas presentes despu√©s del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
 2024-12-30 01:19:30,818 - INFO - Datos procesados para Lisboa. Shape: (1826, 12)
 2024-12-30 01:19:30,819 - INFO - Columnas finales: ['date', 'temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion', 'tsun', 'city']
 2024-12-30 01:19:32,811 - INFO - Modelo y scaler guardados para Lisboa - temp
@@ -2283,14 +2283,14 @@ RandomForestRegressor does not accept missing values encoded as NaN natively. Fo
 2024-12-30 01:19:46,263 - INFO - Archivo Excel creado exitosamente: predictions/Lisboa_Future_Predictions.xlsx
 2024-12-30 14:37:52,700 - INFO - Buscando coordenadas para la ciudad: Alicante
 2024-12-30 14:37:53,205 - INFO - Coordenadas para Alicante: (Lat: 38.3436365, Lon: -0.4881708)
-2024-12-30 14:37:53,254 - INFO - Solicitando datos meteorolÛgicos para Alicante
-2024-12-30 14:37:53,266 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par·metros: {'lat': 38.3436365, 'lon': -0.4881708, 'start': '2020-01-01', 'end': '2024-12-30'}
+2024-12-30 14:37:53,254 - INFO - Solicitando datos meteorol√≥gicos para Alicante
+2024-12-30 14:37:53,266 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par√°metros: {'lat': 38.3436365, 'lon': -0.4881708, 'start': '2020-01-01', 'end': '2024-12-30'}
 2024-12-30 14:37:54,212 - INFO - Respuesta recibida correctamente.
 2024-12-30 14:37:54,289 - INFO - Intentando guardar datos en: datasets/Alicante_Historial_Weather.csv
 2024-12-30 14:37:54,387 - INFO - Archivo CSV creado exitosamente: datasets/Alicante_Historial_Weather.csv
 2024-12-30 14:37:54,387 - INFO - Datos guardados en datasets/Alicante_Historial_Weather.csv
 2024-12-30 14:37:54,407 - INFO - Intentando cargar datos desde: datasets\Alicante_Historial_Weather.csv
-2024-12-30 14:37:54,429 - INFO - Columnas presentes despuÈs del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
+2024-12-30 14:37:54,429 - INFO - Columnas presentes despu√©s del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
 2024-12-30 14:37:54,448 - INFO - Datos procesados para Alicante. Shape: (1826, 12)
 2024-12-30 14:37:54,448 - INFO - Columnas finales: ['date', 'temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion', 'tsun', 'city']
 2024-12-30 14:37:56,578 - INFO - Modelo y scaler guardados para Alicante - temp
@@ -2332,14 +2332,14 @@ RandomForestRegressor does not accept missing values encoded as NaN natively. Fo
 2024-12-30 14:38:13,930 - INFO - Archivo Excel creado exitosamente: predictions/Alicante_Future_Predictions.xlsx
 2024-12-30 14:43:49,596 - INFO - Buscando coordenadas para la ciudad: Alicante
 2024-12-30 14:43:49,972 - INFO - Coordenadas para Alicante: (Lat: 38.3436365, Lon: -0.4881708)
-2024-12-30 14:43:50,020 - INFO - Solicitando datos meteorolÛgicos para Alicante
-2024-12-30 14:43:50,021 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par·metros: {'lat': 38.3436365, 'lon': -0.4881708, 'start': '2020-01-01', 'end': '2024-12-30'}
+2024-12-30 14:43:50,020 - INFO - Solicitando datos meteorol√≥gicos para Alicante
+2024-12-30 14:43:50,021 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par√°metros: {'lat': 38.3436365, 'lon': -0.4881708, 'start': '2020-01-01', 'end': '2024-12-30'}
 2024-12-30 14:43:50,435 - INFO - Respuesta recibida correctamente.
 2024-12-30 14:43:50,504 - INFO - Intentando guardar datos en: datasets/Alicante_Historial_Weather.csv
 2024-12-30 14:43:50,596 - INFO - Archivo CSV creado exitosamente: datasets/Alicante_Historial_Weather.csv
 2024-12-30 14:43:50,597 - INFO - Datos guardados en datasets/Alicante_Historial_Weather.csv
 2024-12-30 14:43:50,616 - INFO - Intentando cargar datos desde: datasets\Alicante_Historial_Weather.csv
-2024-12-30 14:43:50,646 - INFO - Columnas presentes despuÈs del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
+2024-12-30 14:43:50,646 - INFO - Columnas presentes despu√©s del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
 2024-12-30 14:43:50,664 - INFO - Datos procesados para Alicante. Shape: (1826, 12)
 2024-12-30 14:43:50,665 - INFO - Columnas finales: ['date', 'temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion', 'tsun', 'city']
 2024-12-30 14:43:52,823 - INFO - Modelo y scaler guardados para Alicante - temp
@@ -2381,14 +2381,14 @@ RandomForestRegressor does not accept missing values encoded as NaN natively. Fo
 2024-12-30 14:44:09,592 - INFO - Archivo Excel creado exitosamente: predictions/Alicante_Future_Predictions.xlsx
 2024-12-30 14:54:29,687 - INFO - Buscando coordenadas para la ciudad: Valencia
 2024-12-30 14:54:30,009 - INFO - Coordenadas para Valencia: (Lat: 39.4697065, Lon: -0.3763353)
-2024-12-30 14:54:30,062 - INFO - Solicitando datos meteorolÛgicos para Valencia
-2024-12-30 14:54:30,062 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par·metros: {'lat': 39.4697065, 'lon': -0.3763353, 'start': '2020-01-01', 'end': '2024-12-30'}
+2024-12-30 14:54:30,062 - INFO - Solicitando datos meteorol√≥gicos para Valencia
+2024-12-30 14:54:30,062 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par√°metros: {'lat': 39.4697065, 'lon': -0.3763353, 'start': '2020-01-01', 'end': '2024-12-30'}
 2024-12-30 14:54:31,724 - INFO - Respuesta recibida correctamente.
 2024-12-30 14:54:31,785 - INFO - Intentando guardar datos en: datasets/Valencia_Historial_Weather.csv
 2024-12-30 14:54:31,892 - INFO - Archivo CSV creado exitosamente: datasets/Valencia_Historial_Weather.csv
 2024-12-30 14:54:31,893 - INFO - Datos guardados en datasets/Valencia_Historial_Weather.csv
 2024-12-30 14:54:31,914 - INFO - Intentando cargar datos desde: datasets\Valencia_Historial_Weather.csv
-2024-12-30 14:54:31,942 - INFO - Columnas presentes despuÈs del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
+2024-12-30 14:54:31,942 - INFO - Columnas presentes despu√©s del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
 2024-12-30 14:54:31,961 - INFO - Datos procesados para Valencia. Shape: (1826, 12)
 2024-12-30 14:54:31,962 - INFO - Columnas finales: ['date', 'temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion', 'tsun', 'city']
 2024-12-30 14:54:34,264 - INFO - Modelo y scaler guardados para Valencia - temp
@@ -2435,14 +2435,14 @@ Traceback (most recent call last):
 AttributeError: module 'streamlit' has no attribute 'experimental_rerun'
 2024-12-30 14:56:43,103 - INFO - Buscando coordenadas para la ciudad: Valencia
 2024-12-30 14:56:43,446 - INFO - Coordenadas para Valencia: (Lat: 39.4697065, Lon: -0.3763353)
-2024-12-30 14:56:43,498 - INFO - Solicitando datos meteorolÛgicos para Valencia
-2024-12-30 14:56:43,499 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par·metros: {'lat': 39.4697065, 'lon': -0.3763353, 'start': '2020-01-01', 'end': '2024-12-30'}
+2024-12-30 14:56:43,498 - INFO - Solicitando datos meteorol√≥gicos para Valencia
+2024-12-30 14:56:43,499 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par√°metros: {'lat': 39.4697065, 'lon': -0.3763353, 'start': '2020-01-01', 'end': '2024-12-30'}
 2024-12-30 14:56:43,898 - INFO - Respuesta recibida correctamente.
 2024-12-30 14:56:43,962 - INFO - Intentando guardar datos en: datasets/Valencia_Historial_Weather.csv
 2024-12-30 14:56:44,050 - INFO - Archivo CSV creado exitosamente: datasets/Valencia_Historial_Weather.csv
 2024-12-30 14:56:44,051 - INFO - Datos guardados en datasets/Valencia_Historial_Weather.csv
 2024-12-30 14:56:44,069 - INFO - Intentando cargar datos desde: datasets\Valencia_Historial_Weather.csv
-2024-12-30 14:56:44,094 - INFO - Columnas presentes despuÈs del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
+2024-12-30 14:56:44,094 - INFO - Columnas presentes despu√©s del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
 2024-12-30 14:56:44,111 - INFO - Datos procesados para Valencia. Shape: (1826, 12)
 2024-12-30 14:56:44,112 - INFO - Columnas finales: ['date', 'temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion', 'tsun', 'city']
 2024-12-30 14:56:46,243 - INFO - Modelo y scaler guardados para Valencia - temp
@@ -2484,14 +2484,14 @@ RandomForestRegressor does not accept missing values encoded as NaN natively. Fo
 2024-12-30 14:57:02,329 - INFO - Archivo Excel creado exitosamente: predictions/Valencia_Future_Predictions.xlsx
 2024-12-30 15:10:49,871 - INFO - Buscando coordenadas para la ciudad: Valencia
 2024-12-30 15:10:50,330 - INFO - Coordenadas para Valencia: (Lat: 39.4697065, Lon: -0.3763353)
-2024-12-30 15:10:50,374 - INFO - Solicitando datos meteorolÛgicos para Valencia
-2024-12-30 15:10:50,375 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par·metros: {'lat': 39.4697065, 'lon': -0.3763353, 'start': '2020-01-01', 'end': '2024-12-30'}
+2024-12-30 15:10:50,374 - INFO - Solicitando datos meteorol√≥gicos para Valencia
+2024-12-30 15:10:50,375 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par√°metros: {'lat': 39.4697065, 'lon': -0.3763353, 'start': '2020-01-01', 'end': '2024-12-30'}
 2024-12-30 15:10:50,761 - INFO - Respuesta recibida correctamente.
 2024-12-30 15:10:50,817 - INFO - Intentando guardar datos en: datasets/Valencia_Historial_Weather.csv
 2024-12-30 15:10:50,916 - INFO - Archivo CSV creado exitosamente: datasets/Valencia_Historial_Weather.csv
 2024-12-30 15:10:50,916 - INFO - Datos guardados en datasets/Valencia_Historial_Weather.csv
 2024-12-30 15:10:50,932 - INFO - Intentando cargar datos desde: datasets\Valencia_Historial_Weather.csv
-2024-12-30 15:10:50,984 - INFO - Columnas presentes despuÈs del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
+2024-12-30 15:10:50,984 - INFO - Columnas presentes despu√©s del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
 2024-12-30 15:10:51,019 - INFO - Datos procesados para Valencia. Shape: (1826, 12)
 2024-12-30 15:10:51,019 - INFO - Columnas finales: ['date', 'temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion', 'tsun', 'city']
 2024-12-30 15:10:53,172 - INFO - Modelo y scaler guardados para Valencia - temp
@@ -2533,14 +2533,14 @@ RandomForestRegressor does not accept missing values encoded as NaN natively. Fo
 2024-12-30 15:11:09,127 - INFO - Archivo Excel creado exitosamente: predictions/Valencia_Future_Predictions.xlsx
 2024-12-30 16:01:21,327 - INFO - Buscando coordenadas para la ciudad: Valencia
 2024-12-30 16:01:21,650 - INFO - Coordenadas para Valencia: (Lat: 39.4697065, Lon: -0.3763353)
-2024-12-30 16:01:21,700 - INFO - Solicitando datos meteorolÛgicos para Valencia
-2024-12-30 16:01:21,702 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par·metros: {'lat': 39.4697065, 'lon': -0.3763353, 'start': '2020-01-01', 'end': '2024-12-30'}
+2024-12-30 16:01:21,700 - INFO - Solicitando datos meteorol√≥gicos para Valencia
+2024-12-30 16:01:21,702 - INFO - Realizando solicitud GET a https://meteostat.p.rapidapi.com/point/daily con par√°metros: {'lat': 39.4697065, 'lon': -0.3763353, 'start': '2020-01-01', 'end': '2024-12-30'}
 2024-12-30 16:01:22,126 - INFO - Respuesta recibida correctamente.
 2024-12-30 16:01:22,188 - INFO - Intentando guardar datos en: datasets/Valencia_Historial_Weather.csv
 2024-12-30 16:01:22,282 - INFO - Archivo CSV creado exitosamente: datasets/Valencia_Historial_Weather.csv
 2024-12-30 16:01:22,283 - INFO - Datos guardados en datasets/Valencia_Historial_Weather.csv
 2024-12-30 16:01:22,299 - INFO - Intentando cargar datos desde: datasets\Valencia_Historial_Weather.csv
-2024-12-30 16:01:22,324 - INFO - Columnas presentes despuÈs del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
+2024-12-30 16:01:22,324 - INFO - Columnas presentes despu√©s del mapeo: ['temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion']
 2024-12-30 16:01:22,345 - INFO - Datos procesados para Valencia. Shape: (1826, 12)
 2024-12-30 16:01:22,346 - INFO - Columnas finales: ['date', 'temp', 'temp_min', 'temp_max', 'precipitacion', 'nieve', 'direccion_viento', 'velocidad_viento', 'punto_rocio', 'presion', 'tsun', 'city']
 2024-12-30 16:01:24,514 - INFO - Modelo y scaler guardados para Valencia - temp
