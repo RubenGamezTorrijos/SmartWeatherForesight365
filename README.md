@@ -30,7 +30,7 @@ Plataforma de análisis y monitorización de datos climatológicos para predecir
 - [🌤️ **Smart Wather Foresight 365: Previsión Climatológica Inteligente**](#️-smart-wather-foresight-365-previsión-climatológica-inteligente)
   - [📋 **Indíce**](#-indíce)
   - [🌟 **Características**](#-características)
-  - [**Capturas de pantalla**](#-capturas-de-pantalla)
+  - [🖼️**Capturas de pantalla**](#-capturas-de-pantalla)
   - [📂 **Arquitectura**](#-arquitectura)
   - [🚀 **Guía de uso**](#-guía-de-uso)
     - [🔍 **Instalación**](#-instalación)
