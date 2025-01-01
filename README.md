@@ -25,6 +25,7 @@ Plataforma de análisis y monitorización de datos climatológicos para predecir
 
 > [!WARNING]
 > Actualmente este proyecto ha pasado a realizarse individualmente.
+
 ---
 
 ## 📋 Indíce
@@ -217,7 +218,10 @@ https://github.com/usuario/repositorio/compare/main...nombre-de-la-rama
 gh pr create --base main --title "Título del PR" --body "Descripción del PR"
 
 ```
-⚠️ Esto requiere que tengas instalada y configurada la CLI de GitHub (gh).
+
+> [!WARNING]
+> ⚠️ Esto requiere que tengas instalada y configurada la CLI de GitHub (gh).
+
 
 ---
 
