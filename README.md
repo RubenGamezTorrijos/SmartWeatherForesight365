@@ -17,10 +17,11 @@ Plataforma de análisis y monitorización de datos climatológicos para predecir
 
 
 > [!NOTE]
->  **Versión actual:** 1.0.7  
+> **Versión actual:** 1.0.7  
 > **Plataforma:** Python v3.8.0^  
-> **Compatibilidad:** Windows, macOS, Linux 
-> **Navegadores:** Chrome, Brave, Firefox y Edge
+> **Compatibilidad:** Windows, macOS, Linux
+> **Navegadores:** Chrome, Brave, Firefox y Edge  
+
 
 > [!WARNING]
 > Actualmente este proyecto ha pasado a realizarse individualmente.
