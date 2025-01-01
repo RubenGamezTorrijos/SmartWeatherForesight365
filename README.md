@@ -17,31 +17,31 @@ Plataforma de análisis y monitorización de datos climatológicos para predecir
 
 
 > [!NOTE]
->  **Versión actual:** 1.0.7  
+> **Versión actual:** 1.0.7  
 > **Plataforma:** Python v3.8.0^  
 > **Compatibilidad:** Windows, macOS, Linux
-> **Navegadores:** Chrome, Brave, Firefox y Edge
+> **Navegadores:** Chrome, Brave, Firefox y Edge  
+
 
 > [!WARNING]
 > Actualmente este proyecto ha pasado a realizarse individualmente.
+
 ---
 
 ## 📋 Indíce
 - [🌤️ **Smart Wather Foresight 365: Previsión Climatológica Inteligente**](#️-smart-wather-foresight-365-previsión-climatológica-inteligente)
-  - [📋 Indíce](#-indíce)
+  - [📋 **Indíce**](#-indíce)
   - [🌟 **Características**](#-características)
-  - [🖼️ Capturas de pantalla](#️-capturas-de-pantalla)
-  - [||](#)
+  - [🖼️**Capturas de pantalla**](#-capturas-de-pantalla)
   - [📂 **Arquitectura**](#-arquitectura)
-  - [🚀 **Guía de Uso**](#-guía-de-uso)
-    - [🔍 Instalación](#-instalación)
-    - [🕷️ Flujo de trabajo de la Aplicación](#️-flujo-de-trabajo-de-la-aplicación)
-      - [🛠️ Tecnologías utilizadas](#️-tecnologías-utilizadas)
-  - [🤝 Contribuciones](#-contribuciones)
-    - [¿Quieres colaborar? ¡Eres bienvenido! Sigue estos pasos:](#quieres-colaborar-eres-bienvenido-sigue-estos-pasos)
-  - [🤖 Próximas Mejoras](#-próximas-mejoras)
-  - [✨ Créditos](#-créditos)
-  - [📝 Licencia](#-licencia)
+  - [🚀 **Guía de uso**](#-guía-de-uso)
+    - [🔍 **Instalación**](#-instalación)
+    - [🕷️ **Flujo de trabajo de la Aplicación**](#️-flujo-de-trabajo-de-la-aplicación)
+    - [🛠️ **Tecnologías utilizadas**](#️-tecnologías-utilizadas)
+  - [🤝 **Contribuciones**](#-contribuciones)    
+  - [🤖 **Próximas mejoras**](#-próximas-mejoras)
+  - [✨ **Créditos**](#-créditos)
+  - [📝 **Licencia**](#-licencia)
 
 ---
 
@@ -78,8 +78,8 @@ Plataforma de análisis y monitorización de datos climatológicos para predecir
 ```plaintext
 SmartWeatherForesight365/
 ├── .streamlit/                         # Directorio del framework Streamlit Web
-│   ├── config.toml                     # Configuración de Streamlit
-obtenidos de Meteostat en CSV
+│   └── config.toml                     # Configuración de Streamlit
+├── datasets/                           # Almacenamiento datos históricos obtenidos de Meteostat en CSV
 │   └── [Ciudad]_Historial_Weather.csv       
 ├── ml/                                 # Modelos guardados de entrenamiento para su uso posterior
 │   ├── [Ciudad]_[Parametro]_Model.pkl
@@ -173,24 +173,59 @@ stramlit run app.py
 ## 🤝 Contribuciones
 ### ¿Quieres colaborar? ¡Eres bienvenido! Sigue estos pasos:
 
-🔹1. Haz un fork de este repositorio.
-🔹2. Crea un branch para tu funcionalidad:
+🔹1. Configura tu entorno
+- Crea una cuenta en GitHub.
+- Instala Git en tu computadora.
+- Configura tu nombre de usuario y correo electrónico en Git:
+```bash
+git config --global user.name "TuNombre"
+git config --global user.email "TuCorreo@example.com"
 ```
-git checkout -b mi-funcionalidad
+🔹2. Clona el repositorio en tu máquina local:
+```bash
+git clone https://github.com/tu-usuario/tu-repositorio.git
 ```
-🔹3. Haz un commit con tus cambios:
+🔹3. Crea un branch(rama) para tu funcionalidad:
+```bash
+git checkout -b mi-rama
 ```
+🔹4. Haz un commit con tus cambios:
+```bash
 git commit -m "Añadir mi funcionalidad"
 ```
-🔹4. Sube tus cambios:
+🔹5. Sube tus cambios:
+```bash
+git push origin mi-rama.
 ```
-git push origin mi-funcionalidad.
+🔹6. Abre un pull request en este repositorio:
+
+- Ve al repositorio en GitHub.
+- Verás un mensaje en la parte superior que dice algo como:
+- "Recently pushed branches:" seguido del nombre de tu rama.
+- Haz clic en "Compare & pull request".
+- Completa los detalles del PR (título, descripción, etc.).
+- Haz clic en "Create pull request".
+
+🔹7. Usar la URL para un atajo.
+Si prefieres, puedes generar un enlace directo para abrir un PR. La estructura de la URL es:
+```bash
+https://github.com/usuario/repositorio/compare/main...nombre-de-la-rama
 ```
-🔹5. Abre un pull request en este repositorio.
+- Reemplaza usuario, repositorio, y nombre-de-la-rama con los valores correspondientes.
+
+🔹8. Si trabajas en equipos grandes y usas herramientas como GitHub CLI, puedes usar este comando para crear un PR directamente desde la terminal:
+```
+gh pr create --base main --title "Título del PR" --body "Descripción del PR"
+
+```
+
+> [!WARNING]
+> ⚠️ Esto requiere que tengas instalada y configurada la CLI de GitHub (gh).
+
 
 ---
 
-## 🤖 Próximas Mejoras
+## 🤖 Próximas mejoras
 - Agregar una menú adicional para que el usuario pueda realizar ajustes.
 - En los ajutes que el usuario pueda elegir la API que quiere usar y facilitar campos a rellena: URL y API KEY
 - Elegir que tipo de datos desea entrenar: Temperatura, Humedad, Presión y Velocidad del viento.
