@@ -2,7 +2,7 @@
 
 Plataforma de análisis y monitorización de datos climatológicos para predecir condiciones atmosféricas basado en datos históricos.
 
-[SmartWeatherForesight365_Prevision_Valencia_10ENE2025_Captura_2_Resumen_Prediccion_4-Widget_2024-12-31-12_29_59](https://github.com/user-attachments/assets/c86fad05-dc0d-40cf-bc9b-9bdc72a120cc)
+![SmartWeatherForesight365_Prevision_Valencia_10ENE2025_Captura_2_Resumen_Prediccion_4-Widget_2024-12-31-12_29_59](https://github.com/user-attachments/assets/c86fad05-dc0d-40cf-bc9b-9bdc72a120cc)
 
 ¡Bienvenido al proyecto **SmartWeatherForesight365**! 🎯 Este proyecto de Computación 1 implementa un sistema de predicción inteligente para predecir el clima en fechas posteriores hasta un máximo de 30 días, obteniendo datos históricos de **meteostat.net** conectado mediante API y con modelos de aprendizaje y entrenamiento en **Python** usando librerías.
 
