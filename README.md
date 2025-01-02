@@ -171,7 +171,7 @@ stramlit run app.py
 ---
 
 ## 🤝 Contribuciones
-### ¿Quieres colaborar? ¡Eres bienvenido! Sigue estos pasos:
+**¿Quieres colaborar? ¡Eres bienvenido! Sigue estos pasos:**
 
 🔹1. Configura tu entorno
 - Crea una cuenta en GitHub.
