@@ -241,4 +241,5 @@ Este proyecto no sería posible sin la dedicación de sus integrantes:
 Agradecemos también a la Universidad Europea por inspirar este proyecto académico. 🙌
 
 ## 📝 Licencia
-Este proyecto está bajo la licencia Apache 2.0. ¡Siéntete libre de usarlo, modificarlo y compartirlo!
+Este proyecto está bajo la licencia Apache 2.0. Este software está desarrollado para modo pruebas para proyecto Universitario.
+Siéntete libre de usarlo, mejorarlo y así poder ver los nuevos cambios que se van implementando.
