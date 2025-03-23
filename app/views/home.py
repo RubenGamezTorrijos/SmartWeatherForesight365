@@ -23,9 +23,16 @@ def create_home_page(api_controller, data_controller, model_controller, predicti
     
     st.title("Smart Weather Foresight 365 🌤️")
     if 'city' in st.session_state and st.session_state.city:
-        st.subheader(f"Ciudad seleccionada: {st.session_state.city}")
-    else:
-        st.subheader("Predicción meteorológica basada en entrenamiento de datos históricos")
+        city_name = st.session_state.city
+        st.markdown(f"""
+        <h3 style="margin-top: 1em;">Ciudad seleccionada: 
+            <span style="background-color: #FFA500; color: #000000; padding: 0.2em 0.5em; border-radius: 0.3em;">
+                {city_name}
+            </span>
+        </h3>
+        """, unsafe_allow_html=True)
+    
+    st.subheader("Predicción meteorológica basada en entrenamiento de datos históricos")
 
     if 'show_results' not in st.session_state:
         st.session_state.show_results = False
