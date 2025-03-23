@@ -2,13 +2,8 @@ import streamlit as st
 
 def create_summary(prediction_data):
     st.markdown('<div id="resumen">', unsafe_allow_html=True)
-    city_name = prediction_data['Ciudad'].iloc[0]
     st.markdown(f"""
-    <h3>Resumen de predicción: 
-        <span style="background-color: #FFA500; color: #000000; padding: 0.2em 0.5em; border-radius: 0.3em;">
-            {city_name}
-        </span>
-    </h3>
+    <h3>Resumen de predicción</h3>
     """, unsafe_allow_html=True)
     col1, col2, col3, col4 = st.columns(4)
     with col1:
