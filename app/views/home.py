@@ -21,7 +21,16 @@ def create_home_page(api_controller, data_controller, model_controller, predicti
         initial_sidebar_state="expanded"
     )
     
-    st.title("Smart Weather Foresight 365 🌤️")
+    st.title("Smart Weather Foresight 365 🌤️") 
+    st.markdown('<div id="resumen">', unsafe_allow_html=True)
+    city_name = prediction_data['Ciudad'].iloc[0]
+    st.markdown(f"""
+    <h3>Resumen de predicción: 
+        <span style="background-color: #FFA500; color: #000000; padding: 0.2em 0.5em; border-radius: 0.3em;">
+            {city_name}
+        </span>
+    </h3>
+    """, unsafe_allow_html=True)
     st.subheader("Predicción meteorológica basada en entrenamiento de datos históricos")
 
     if 'show_results' not in st.session_state:
