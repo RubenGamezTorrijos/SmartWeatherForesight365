@@ -6,13 +6,13 @@ from openpyxl.utils import get_column_letter
 
 def process_prediction_data(prediction_data, city):
     try:
-        # Create an Excel file in memory
+        # Crear un archivo Excel en memoria
         output = BytesIO()
         workbook = openpyxl.Workbook()
         worksheet = workbook.active
         worksheet.title = "Predicciones"
 
-        # Write headers
+        # Escribir encabezados
         headers = list(prediction_data.columns)
         for col, header in enumerate(headers, start=1):
             cell = worksheet.cell(row=1, column=col, value=header)
@@ -20,13 +20,13 @@ def process_prediction_data(prediction_data, city):
             cell.fill = PatternFill(start_color="366092", end_color="366092", fill_type="solid")
             cell.alignment = Alignment(horizontal="center", vertical="center")
 
-        # Write data
+        # Escribir datos
         for row, data in enumerate(prediction_data.values, start=2):
             for col, value in enumerate(data, start=1):
                 cell = worksheet.cell(row=row, column=col, value=value)
                 cell.alignment = Alignment(horizontal="center")
 
-        # Adjust column widths
+        # Ajustar el ancho de las columnas
         for column in worksheet.columns:
             max_length = 0
             column_letter = get_column_letter(column[0].column)
@@ -39,18 +39,12 @@ def process_prediction_data(prediction_data, city):
             adjusted_width = (max_length + 2)
             worksheet.column_dimensions[column_letter].width = adjusted_width
 
-        # Save the workbook to the BytesIO object
+        # Guardar el libro de trabajo en el objeto BytesIO
         workbook.save(output)
         output.seek(0)
 
-        # Create download button
-        st.download_button(
-            label="Descargar predicción en Excel",
-            data=output,
-            file_name=f"{city}_prediccion.xlsx",
-            mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-        )
+        return output  # Devolver el archivo Excel como un objeto en memoria
 
     except Exception as e:
         st.error(f"Error al preparar el archivo para descarga: {str(e)}")
-
+        return None

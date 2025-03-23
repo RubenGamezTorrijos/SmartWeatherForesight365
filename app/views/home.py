@@ -124,7 +124,16 @@ def create_home_page(api_controller, data_controller, model_controller, predicti
 
         # Botón para descargar predicciones (movido al sidebar)
         if download_button:
-            process_prediction_data(prediction_data, city)
+            excel_file = process_prediction_data(prediction_data, city)
+            if excel_file:
+                st.sidebar.download_button(
+                    label="Descargar predicción en Excel",
+                    data=excel_file,
+                    file_name=f"{city}_prediccion.xlsx",
+                    mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                )
+            else:
+                st.sidebar.warning("No se pudo generar el archivo Excel.")
 
         # Botón para nueva búsqueda (movido al sidebar)
         if new_search_button:
