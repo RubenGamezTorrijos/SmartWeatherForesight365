@@ -53,7 +53,7 @@ def create_home_page(api_controller, data_controller, model_controller, predicti
         submit_button = st.button("Obtener predicción")
         
         # Botones adicionales
-        download_button = st.button("Descargar predicción en Excel")
+        download_button = st.button("Generar predicción en Excel")
         new_search_button = st.button("Nueva búsqueda")
 
     # Lógica del botón "Obtener predicción"
