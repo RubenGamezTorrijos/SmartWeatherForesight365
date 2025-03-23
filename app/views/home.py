@@ -30,8 +30,10 @@ def create_home_page(api_controller, data_controller, model_controller, predicti
     # Mover el formulario al sidebar
     with st.sidebar:
         st.title("Menú")
+        
+        # Formulario
         city = st.text_input("Introduce nombre de una ciudad de España:")
-
+        
         col1, col2 = st.columns(2)
         with col1:
             start_date = st.date_input(
@@ -46,10 +48,10 @@ def create_home_page(api_controller, data_controller, model_controller, predicti
                 value=start_date + timedelta(days=7),
                 max_value=start_date + timedelta(days=30)
             )
-
+        
         # Botón para obtener predicción
         submit_button = st.button("Obtener predicción")
-
+        
         # Botones adicionales
         download_button = st.button("Descargar predicción en Excel")
         new_search_button = st.button("Nueva búsqueda")
